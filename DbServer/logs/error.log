@@ -1,0 +1,1 @@
+2014-09-22 21:16:52  [ org.huangxu.service.ServerHandler.exceptionCaught(ServerHandler.java:37):org.huangxu.service.ServerHandler:NioProcessor-1:316416 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host

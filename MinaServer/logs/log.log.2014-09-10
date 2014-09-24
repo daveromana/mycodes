@@ -1,0 +1,368 @@
+2014-09-10 14:03:30  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:03:53  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:04:52  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:05:57  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:07:26  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:08:30  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:09:58  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:11:12  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:11:38  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:12:56  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:14:29  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:14:29  [ main:6 ] - [ INFO ]  欢迎你， huangxu
+2014-09-10 14:28:06  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:28:06  [ main:16 ] - [ INFO ]  欢迎你， huangxu
+2014-09-10 14:55:42  [ main:1 ] - [ ERROR ]  请求通信[/192.168.0.143:6602]偶遇异常,堆栈轨迹如下
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at org.huangxu.data.MinaClient.connectServer(MinaClient.java:36)
+	at org.huangxu.data.UserUtil.login(UserUtil.java:35)
+	at test.MyTest.main(MyTest.java:48)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:1)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$4(AbstractPollingIoConnector.java:426)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-10 14:55:42  [ main:167 ] - [ INFO ]  服务器连接失败
+2014-09-10 14:56:04  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-10 14:56:04  [ main:33 ] - [ INFO ]  欢迎你， huangxu
+2014-09-10 17:28:40  [ main:0 ] - [ INFO ]  写 超 时: 1000 ms
+2014-09-10 17:28:40  [ main:57 ] - [ INFO ]  发呆配置(Both Idle):90 ms
+2014-09-10 17:28:40  [ main:57 ] - [ INFO ]  服务端初始化完成......
+2014-09-10 17:28:40  [ main:58 ] - [ INFO ]  服务已启动....开始监听....[/0.0.0.0:9901, /0.0.0.0:8000]
+2014-09-10 17:32:34  [ NioProcessor-3:233623 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 2
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 17:32:34  [ NioProcessor-3:233713 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 2
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-10 17:32:34  [ pool-3-thread-1:233715 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 2
+2014-09-10 17:32:34  [ pool-3-thread-1:233715 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 2
+2014-09-10 17:32:34  [ pool-3-thread-1:233716 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 2
+2014-09-10 17:32:34  [ pool-3-thread-1:233716 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 17:32:34  [ pool-3-thread-1:233736 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 2
+2014-09-10 17:32:34  [ NioProcessor-3:233738 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 2
+Queue : [SESSION_CLOSED, ]
+
+2014-09-10 17:32:34  [ pool-3-thread-2:233740 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 2
+2014-09-10 17:32:34  [ pool-3-thread-2:233741 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 2
+2014-09-10 17:32:35  [ NioProcessor-4:234613 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 3
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 17:32:35  [ pool-3-thread-1:234614 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 3
+2014-09-10 17:32:35  [ pool-3-thread-1:234619 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 3
+2014-09-10 17:32:35  [ NioProcessor-4:234621 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 3
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-10 17:32:35  [ NioProcessor-4:234622 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 3
+Queue : [EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 17:32:35  [ pool-3-thread-2:234638 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 3
+2014-09-10 17:32:35  [ pool-3-thread-2:234640 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 17:32:35  [ pool-3-thread-2:234644 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 3
+2014-09-10 17:32:35  [ pool-3-thread-2:234645 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 3
+2014-09-10 17:32:35  [ pool-3-thread-2:234645 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 3
+2014-09-10 17:53:12  [ NioProcessor-5:1471494 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 4
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 17:53:12  [ NioProcessor-5:1471496 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 4
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, ]
+
+2014-09-10 17:53:12  [ pool-3-thread-3:1471499 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 4
+2014-09-10 17:53:12  [ pool-3-thread-3:1471499 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 4
+2014-09-10 17:53:12  [ NioProcessor-5:1471503 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 4
+Queue : [EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 17:53:12  [ pool-3-thread-3:1471504 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 4
+2014-09-10 17:53:12  [ pool-3-thread-3:1471504 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 17:53:12  [ pool-3-thread-3:1471509 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 4
+2014-09-10 17:53:12  [ pool-3-thread-3:1471509 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 4
+2014-09-10 17:53:12  [ pool-3-thread-3:1471509 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 4
+2014-09-10 17:53:13  [ NioProcessor-1:1472396 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 5
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 17:53:13  [ NioProcessor-1:1472398 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 5
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-10 17:53:13  [ NioProcessor-1:1472401 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 5
+Queue : [EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 17:53:13  [ pool-3-thread-4:1472398 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 5
+2014-09-10 17:53:13  [ pool-3-thread-4:1472402 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 5
+2014-09-10 17:53:13  [ pool-3-thread-4:1472403 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 5
+2014-09-10 17:53:13  [ pool-3-thread-4:1472404 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 17:53:13  [ pool-3-thread-4:1472413 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 5
+2014-09-10 17:53:13  [ pool-3-thread-4:1472415 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 5
+2014-09-10 17:53:13  [ pool-3-thread-4:1472416 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 5
+2014-09-10 17:53:22  [ NioProcessor-2:1481573 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 6
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 17:53:22  [ pool-3-thread-3:1481574 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 6
+2014-09-10 17:53:22  [ pool-3-thread-3:1481574 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 6
+2014-09-10 17:53:22  [ NioProcessor-2:1481574 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 6
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-10 17:53:22  [ pool-3-thread-4:1481575 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 6
+2014-09-10 17:53:22  [ pool-3-thread-4:1481575 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 17:53:22  [ NioProcessor-2:1481578 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 6
+Queue : [SESSION_CLOSED, ]
+
+2014-09-10 17:53:22  [ pool-3-thread-4:1481578 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 6
+2014-09-10 17:53:22  [ pool-3-thread-4:1481579 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 6
+2014-09-10 17:53:22  [ pool-3-thread-4:1481579 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 6
+2014-09-10 17:53:23  [ NioProcessor-3:1482605 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 7
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 17:53:23  [ NioProcessor-3:1482607 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 7
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, ]
+
+2014-09-10 17:53:23  [ NioProcessor-3:1482608 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 7
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 17:53:23  [ pool-3-thread-3:1482609 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 7
+2014-09-10 17:53:23  [ pool-3-thread-3:1482610 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 7
+2014-09-10 17:53:23  [ pool-3-thread-3:1482610 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 7
+2014-09-10 17:53:23  [ pool-3-thread-3:1482611 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 17:53:23  [ pool-3-thread-3:1482614 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 7
+2014-09-10 17:53:23  [ pool-3-thread-3:1482616 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 7
+2014-09-10 17:53:23  [ pool-3-thread-3:1482617 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 7
+2014-09-10 17:53:39  [ NioProcessor-4:1498535 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 8
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 17:53:39  [ NioProcessor-4:1498535 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 8
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, ]
+
+2014-09-10 17:53:39  [ NioProcessor-4:1498536 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 8
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 17:53:39  [ pool-3-thread-4:1498536 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 8
+2014-09-10 17:53:39  [ pool-3-thread-4:1498536 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 8
+2014-09-10 17:53:39  [ pool-3-thread-4:1498537 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 8
+2014-09-10 17:53:39  [ pool-3-thread-4:1498538 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 17:53:39  [ pool-3-thread-4:1498539 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 8
+2014-09-10 17:53:39  [ pool-3-thread-4:1498539 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 8
+2014-09-10 17:53:39  [ pool-3-thread-4:1498540 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 8
+2014-09-10 17:53:40  [ NioProcessor-5:1499544 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 9
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 17:53:40  [ NioProcessor-5:1499545 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 9
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, ]
+
+2014-09-10 17:53:40  [ NioProcessor-5:1499545 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 9
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 17:53:40  [ pool-3-thread-3:1499547 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 9
+2014-09-10 17:53:40  [ pool-3-thread-3:1499547 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 9
+2014-09-10 17:53:40  [ pool-3-thread-3:1499548 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 9
+2014-09-10 17:53:40  [ pool-3-thread-3:1499548 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 17:53:40  [ pool-3-thread-3:1499551 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 9
+2014-09-10 17:53:40  [ pool-3-thread-3:1499551 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 9
+2014-09-10 17:53:40  [ pool-3-thread-3:1499551 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 9
+2014-09-10 18:09:21  [ NioProcessor-1:2440109 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 10
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:09:21  [ pool-3-thread-5:2440116 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 10
+2014-09-10 18:09:21  [ pool-3-thread-5:2440116 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 10
+2014-09-10 18:09:23  [ NioProcessor-1:2442376 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 10
+2014-09-10 18:09:24  [ NioProcessor-1:2443240 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 10
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-10 18:09:24  [ pool-3-thread-5:2443240 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 10
+2014-09-10 18:09:24  [ pool-3-thread-5:2443562 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-10 18:09:24  [ pool-3-thread-5:2443633 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x0000000A: nio socket, server, /192.168.0.143:55721 => /192.168.0.143:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-10 18:09:24  [ pool-3-thread-5:2443634 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-10 18:09:24  [ pool-3-thread-5:2443661 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x0000000A: nio socket, server, /192.168.0.143:55721 => /192.168.0.143:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-10 18:09:25  [ pool-3-thread-5:2444304 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 10
+2014-09-10 18:09:25  [ NioProcessor-1:2444304 ] - [ DEBUG ]  Adding event MESSAGE_SENT to session 10
+Queue : [MESSAGE_SENT, ]
+
+2014-09-10 18:09:25  [ pool-3-thread-5:2444305 ] - [ DEBUG ]  Firing a MESSAGE_SENT event for session 10
+2014-09-10 18:09:25  [ pool-3-thread-5:2444305 ] - [ INFO ]  已回应给Client
+2014-09-10 18:09:25  [ pool-3-thread-5:2444305 ] - [ DEBUG ]  Event MESSAGE_SENT has been fired for session 10
+2014-09-10 18:09:25  [ NioProcessor-1:2444311 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 10
+Queue : [SESSION_CLOSED, ]
+
+2014-09-10 18:09:25  [ pool-3-thread-5:2444312 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 10
+2014-09-10 18:09:25  [ pool-3-thread-5:2444312 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 10
+2014-09-10 18:17:24  [ NioProcessor-2:2923362 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 11
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:17:24  [ pool-3-thread-6:2923406 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 11
+2014-09-10 18:17:24  [ NioProcessor-2:2923406 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 11
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-10 18:17:24  [ pool-3-thread-6:2923406 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 11
+2014-09-10 18:17:24  [ pool-3-thread-6:2923408 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 11
+2014-09-10 18:17:24  [ pool-3-thread-6:2923408 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 18:17:24  [ NioProcessor-2:2923411 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 11
+Queue : [SESSION_CLOSED, ]
+
+2014-09-10 18:17:24  [ pool-3-thread-6:2923425 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 11
+2014-09-10 18:17:24  [ pool-3-thread-6:2923426 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 11
+2014-09-10 18:17:24  [ pool-3-thread-6:2923427 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 11
+2014-09-10 18:17:25  [ NioProcessor-3:2924332 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 12
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:17:25  [ pool-3-thread-7:2924334 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 12
+2014-09-10 18:17:25  [ NioProcessor-3:2924334 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 12
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-10 18:17:25  [ pool-3-thread-7:2924334 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 12
+2014-09-10 18:17:25  [ NioProcessor-3:2924336 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 12
+Queue : [EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 18:17:25  [ pool-3-thread-7:2924346 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 12
+2014-09-10 18:17:25  [ pool-3-thread-7:2924375 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 18:17:25  [ pool-3-thread-7:2924376 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 12
+2014-09-10 18:17:25  [ pool-3-thread-7:2924376 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 12
+2014-09-10 18:17:25  [ pool-3-thread-7:2924377 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 12
+2014-09-10 18:17:27  [ NioProcessor-4:2927006 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 13
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:17:27  [ pool-3-thread-6:2927007 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 13
+2014-09-10 18:17:27  [ NioProcessor-4:2927007 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 13
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-10 18:17:27  [ NioProcessor-4:2927008 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 13
+Queue : [EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 18:17:27  [ pool-3-thread-6:2927007 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 13
+2014-09-10 18:17:27  [ pool-3-thread-6:2927009 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 13
+2014-09-10 18:17:27  [ pool-3-thread-6:2927009 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 18:17:27  [ pool-3-thread-6:2927028 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 13
+2014-09-10 18:17:27  [ pool-3-thread-6:2927032 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 13
+2014-09-10 18:17:27  [ pool-3-thread-6:2927054 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 13
+2014-09-10 18:17:28  [ NioProcessor-5:2928014 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 14
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:17:28  [ NioProcessor-5:2928026 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 14
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, ]
+
+2014-09-10 18:17:28  [ pool-3-thread-7:2928027 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 14
+2014-09-10 18:17:28  [ NioProcessor-5:2928027 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 14
+Queue : [EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 18:17:28  [ pool-3-thread-7:2928027 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 14
+2014-09-10 18:17:28  [ pool-3-thread-7:2928028 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 14
+2014-09-10 18:17:28  [ pool-3-thread-7:2928028 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 18:17:28  [ pool-3-thread-7:2928065 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 14
+2014-09-10 18:17:28  [ pool-3-thread-7:2928065 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 14
+2014-09-10 18:17:29  [ pool-3-thread-7:2928125 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 14
+2014-09-10 18:17:29  [ NioProcessor-1:2928416 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 15
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:17:29  [ pool-3-thread-6:2928417 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 15
+2014-09-10 18:17:29  [ NioProcessor-1:2928417 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 15
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-10 18:17:29  [ pool-3-thread-6:2928417 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 15
+2014-09-10 18:17:29  [ NioProcessor-1:2928417 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 15
+Queue : [EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 18:17:29  [ pool-3-thread-6:2928418 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 15
+2014-09-10 18:17:29  [ pool-3-thread-6:2928418 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 18:17:29  [ pool-3-thread-6:2928419 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 15
+2014-09-10 18:17:29  [ pool-3-thread-6:2928419 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 15
+2014-09-10 18:17:29  [ pool-3-thread-6:2928419 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 15
+2014-09-10 18:17:30  [ NioProcessor-2:2929347 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 16
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:17:30  [ NioProcessor-2:2929371 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 16
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, ]
+
+2014-09-10 18:17:30  [ NioProcessor-3:2929371 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 17
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:17:30  [ NioProcessor-2:2929372 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 16
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 18:17:30  [ NioProcessor-3:2929372 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 17
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, ]
+
+2014-09-10 18:17:30  [ pool-3-thread-6:2929372 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 17
+2014-09-10 18:17:30  [ pool-3-thread-6:2929373 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 17
+2014-09-10 18:17:30  [ pool-3-thread-7:2929372 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 16
+2014-09-10 18:17:30  [ pool-3-thread-6:2929381 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 17
+2014-09-10 18:17:30  [ pool-3-thread-6:2929381 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 18:17:30  [ pool-3-thread-7:2929381 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 16
+2014-09-10 18:17:30  [ pool-3-thread-7:2929409 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 16
+2014-09-10 18:17:30  [ pool-3-thread-7:2929409 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 18:17:30  [ pool-3-thread-6:2929410 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 17
+2014-09-10 18:17:30  [ pool-3-thread-7:2929418 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 16
+2014-09-10 18:17:30  [ pool-3-thread-7:2929419 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 16
+2014-09-10 18:17:30  [ pool-3-thread-7:2929438 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 16
+2014-09-10 18:17:30  [ NioProcessor-3:2929438 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 17
+Queue : [SESSION_CLOSED, ]
+
+2014-09-10 18:17:30  [ pool-3-thread-8:2929439 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 17
+2014-09-10 18:17:30  [ pool-3-thread-8:2929439 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 17
+2014-09-10 18:17:31  [ NioProcessor-4:2930346 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 18
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:17:31  [ pool-3-thread-6:2930362 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 18
+2014-09-10 18:17:31  [ NioProcessor-4:2930362 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 18
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-10 18:17:31  [ pool-3-thread-6:2930362 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 18
+2014-09-10 18:17:31  [ pool-3-thread-6:2930362 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 18
+2014-09-10 18:17:31  [ pool-3-thread-6:2930362 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 18:17:31  [ NioProcessor-4:2930362 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 18
+Queue : [SESSION_CLOSED, ]
+
+2014-09-10 18:17:31  [ pool-3-thread-6:2930363 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 18
+2014-09-10 18:17:31  [ pool-3-thread-6:2930363 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 18
+2014-09-10 18:17:31  [ pool-3-thread-6:2930363 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 18
+2014-09-10 18:17:32  [ NioProcessor-5:2931244 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 19
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:17:32  [ NioProcessor-5:2931245 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 19
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, ]
+
+2014-09-10 18:17:32  [ NioProcessor-5:2931249 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 19
+Queue : [SESSION_OPENED, , EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 18:17:32  [ pool-3-thread-7:2931250 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 19
+2014-09-10 18:17:32  [ pool-3-thread-7:2931251 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 19
+2014-09-10 18:17:32  [ pool-3-thread-7:2931251 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 19
+2014-09-10 18:17:32  [ pool-3-thread-7:2931251 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 18:17:32  [ pool-3-thread-7:2931254 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 19
+2014-09-10 18:17:32  [ pool-3-thread-7:2931254 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 19
+2014-09-10 18:17:32  [ pool-3-thread-7:2931255 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 19
+2014-09-10 18:17:33  [ NioProcessor-1:2932221 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 20
+Queue : [SESSION_OPENED, ]
+
+2014-09-10 18:17:33  [ pool-3-thread-8:2932296 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 20
+2014-09-10 18:17:33  [ NioProcessor-1:2932296 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 20
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-10 18:17:33  [ pool-3-thread-8:2932296 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 20
+2014-09-10 18:17:33  [ NioProcessor-1:2932297 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 20
+Queue : [EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-10 18:17:33  [ pool-3-thread-8:2932297 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 20
+2014-09-10 18:17:33  [ pool-3-thread-8:2932298 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-10 18:17:33  [ pool-3-thread-8:2932299 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 20
+2014-09-10 18:17:33  [ pool-3-thread-8:2932299 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 20
+2014-09-10 18:17:33  [ pool-3-thread-8:2932300 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 20

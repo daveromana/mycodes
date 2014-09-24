@@ -1,0 +1,844 @@
+2014-09-03 17:09:16  [ main:0 ] - [ INFO ]  写 超 时: 1000 ms
+2014-09-03 17:09:16  [ main:17 ] - [ INFO ]  发呆配置(Both Idle):90 ms
+2014-09-03 17:09:16  [ main:17 ] - [ INFO ]  服务端初始化完成......
+2014-09-03 17:09:16  [ main:18 ] - [ INFO ]  服务已启动....开始监听....[/0.0.0.0:9901, /0.0.0.0:8000]
+2014-09-03 17:09:44  [ main:1 ] - [ ERROR ]  请求通信[/127.0.0.1:9998]偶遇异常,堆栈轨迹如下
+org.apache.mina.core.RuntimeIoException: Failed to get the session.
+	at org.apache.mina.core.future.DefaultConnectFuture.getSession(DefaultConnectFuture.java:58)
+	at org.server.core.MinaUtil.sendTCPMessage(MinaUtil.java:63)
+	at org.server.core.TestServer.main(TestServer.java:6)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:221)
+	at org.apache.mina.transport.socket.nio.NioSocketConnector.finishConnect(NioSocketConnector.java:1)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.processConnections(AbstractPollingIoConnector.java:442)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector.access$4(AbstractPollingIoConnector.java:426)
+	at org.apache.mina.core.polling.AbstractPollingIoConnector$Connector.run(AbstractPollingIoConnector.java:510)
+	at org.apache.mina.util.NamePreservingRunnable.run(NamePreservingRunnable.java:64)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2014-09-03 17:10:40  [ NioProcessor-3:84050 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 2
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:10:41  [ NioProcessor-3:84344 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-03 17:10:41  [ pool-3-thread-1:84344 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 2
+2014-09-03 17:10:41  [ pool-3-thread-1:84345 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 2
+2014-09-03 17:11:12  [ NioProcessor-3:115260 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 2
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:11:12  [ pool-3-thread-2:115268 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 2
+2014-09-03 17:11:12  [ pool-3-thread-2:115351 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:11:12  [ pool-3-thread-2:115351 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000002: nio socket, server, /127.0.0.1:59905 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:11:12  [ pool-3-thread-2:115352 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:11:12  [ pool-3-thread-2:115352 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000002: nio socket, server, /127.0.0.1:59905 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:11:12  [ pool-3-thread-2:115384 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 2
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:11:12  [ pool-3-thread-2:115385 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 2
+2014-09-03 17:11:12  [ pool-3-thread-2:115389 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 2
+2014-09-03 17:11:12  [ pool-3-thread-2:115389 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:11:12  [ pool-3-thread-2:115393 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 2
+2014-09-03 17:11:18  [ NioProcessor-3:121477 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 2
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:11:18  [ pool-3-thread-3:121487 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 2
+2014-09-03 17:11:18  [ pool-3-thread-3:121488 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 2
+2014-09-03 17:12:26  [ NioProcessor-4:189199 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 3
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:12:26  [ pool-3-thread-4:189201 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 3
+2014-09-03 17:12:26  [ pool-3-thread-4:189202 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 3
+2014-09-03 17:12:26  [ NioProcessor-4:189230 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-03 17:12:42  [ NioProcessor-4:205600 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 3
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:12:42  [ pool-3-thread-4:205602 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 3
+2014-09-03 17:12:42  [ pool-3-thread-4:205614 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:12:42  [ pool-3-thread-4:205616 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000003: nio socket, server, /127.0.0.1:59925 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:12:42  [ pool-3-thread-4:205616 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:12:42  [ pool-3-thread-4:205620 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000003: nio socket, server, /127.0.0.1:59925 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:12:42  [ pool-3-thread-4:205621 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 3
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:12:42  [ pool-3-thread-4:205623 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 3
+2014-09-03 17:12:42  [ pool-3-thread-4:205624 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 3
+2014-09-03 17:12:42  [ pool-3-thread-4:205625 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:12:42  [ pool-3-thread-4:205636 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 3
+2014-09-03 17:12:42  [ NioProcessor-4:205638 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 3
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:12:42  [ pool-3-thread-4:205643 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 3
+2014-09-03 17:12:42  [ pool-3-thread-4:205648 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 3
+2014-09-03 17:13:02  [ NioProcessor-5:225932 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 4
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:13:02  [ pool-3-thread-5:225933 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 4
+2014-09-03 17:13:02  [ pool-3-thread-5:225933 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 4
+2014-09-03 17:13:02  [ NioProcessor-5:225957 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 4
+2014-09-03 17:14:32  [ main:0 ] - [ INFO ]  读取[/127.0.0.1:9901]超时
+2014-09-03 17:15:45  [ NioProcessor-5:388713 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 4
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:15:45  [ NioProcessor-5:388716 ] - [ DEBUG ]  Adding event SESSION_IDLE to session 4
+Queue : [MESSAGE_RECEIVED, , SESSION_IDLE, ]
+
+2014-09-03 17:15:45  [ pool-3-thread-6:388718 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 4
+2014-09-03 17:15:45  [ pool-3-thread-6:388734 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:15:45  [ pool-3-thread-6:388735 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000004: nio socket, server, /127.0.0.1:59941 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:15:45  [ pool-3-thread-6:388736 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:15:45  [ pool-3-thread-6:388738 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000004: nio socket, server, /127.0.0.1:59941 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:15:45  [ pool-3-thread-6:388738 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 4
+Queue : [SESSION_IDLE, , EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:15:45  [ pool-3-thread-6:388740 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 4
+2014-09-03 17:15:45  [ pool-3-thread-6:388740 ] - [ DEBUG ]  Firing a SESSION_IDLE event for session 4
+2014-09-03 17:15:45  [ pool-3-thread-6:388741 ] - [ INFO ]  请求进入闲置状态....回路即将关闭....
+2014-09-03 17:15:45  [ pool-3-thread-6:388742 ] - [ DEBUG ]  Event SESSION_IDLE has been fired for session 4
+2014-09-03 17:15:45  [ pool-3-thread-6:388742 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 4
+2014-09-03 17:15:45  [ pool-3-thread-6:388742 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:15:45  [ NioProcessor-5:388744 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 4
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:15:45  [ pool-3-thread-6:388749 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 4
+2014-09-03 17:15:45  [ pool-3-thread-6:388751 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 4
+2014-09-03 17:15:45  [ pool-3-thread-6:388751 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 4
+2014-09-03 17:22:51  [ NioProcessor-1:815035 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 5
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:22:51  [ pool-3-thread-8:815036 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 5
+2014-09-03 17:22:51  [ pool-3-thread-8:815037 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 5
+2014-09-03 17:22:51  [ NioProcessor-1:815066 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-03 17:22:58  [ NioProcessor-1:821944 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 5
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:22:58  [ pool-3-thread-8:821958 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 5
+2014-09-03 17:22:58  [ pool-3-thread-8:821962 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:22:58  [ pool-3-thread-8:821963 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000005: nio socket, server, /127.0.0.1:59982 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:23:09  [ pool-3-thread-8:832377 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:23:31  [ pool-3-thread-8:854715 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000005: nio socket, server, /127.0.0.1:59982 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:23:31  [ pool-3-thread-8:854716 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 5
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:23:31  [ pool-3-thread-8:854718 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 5
+2014-09-03 17:23:31  [ pool-3-thread-8:854719 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 5
+2014-09-03 17:23:31  [ pool-3-thread-8:854719 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:23:31  [ pool-3-thread-8:854728 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 5
+2014-09-03 17:23:31  [ NioProcessor-1:854729 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 5
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:23:31  [ pool-3-thread-9:854742 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 5
+2014-09-03 17:23:31  [ pool-3-thread-9:854743 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 5
+2014-09-03 17:24:35  [ NioProcessor-2:918317 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 6
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:24:35  [ pool-3-thread-10:918318 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 6
+2014-09-03 17:24:35  [ pool-3-thread-10:918318 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 6
+2014-09-03 17:24:35  [ NioProcessor-2:918348 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 6
+2014-09-03 17:24:41  [ NioProcessor-2:925083 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 6
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:24:41  [ pool-3-thread-10:925086 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 6
+2014-09-03 17:24:41  [ pool-3-thread-10:925094 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:24:41  [ pool-3-thread-10:925099 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000006: nio socket, server, /127.0.0.1:60005 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:24:45  [ pool-3-thread-10:928290 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:24:45  [ pool-3-thread-10:928292 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000006: nio socket, server, /127.0.0.1:60005 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:24:45  [ pool-3-thread-10:928294 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 6
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:24:45  [ pool-3-thread-10:928298 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 6
+2014-09-03 17:24:45  [ pool-3-thread-10:928298 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 6
+2014-09-03 17:24:45  [ pool-3-thread-10:928299 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:24:45  [ pool-3-thread-10:928306 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 6
+2014-09-03 17:24:45  [ NioProcessor-2:928309 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 6
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:24:45  [ pool-3-thread-11:928312 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 6
+2014-09-03 17:24:45  [ pool-3-thread-11:928313 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 6
+2014-09-03 17:24:59  [ NioProcessor-3:943139 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 7
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:24:59  [ pool-3-thread-10:943139 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 7
+2014-09-03 17:24:59  [ pool-3-thread-10:943139 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 7
+2014-09-03 17:25:00  [ NioProcessor-3:943162 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 7
+2014-09-03 17:25:02  [ NioProcessor-3:945471 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 7
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:25:02  [ pool-3-thread-11:945472 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 7
+2014-09-03 17:25:02  [ pool-3-thread-11:945485 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:25:02  [ pool-3-thread-11:945487 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000007: nio socket, server, /127.0.0.1:60020 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:25:07  [ pool-3-thread-11:950508 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:25:12  [ pool-3-thread-11:955697 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000007: nio socket, server, /127.0.0.1:60020 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:25:15  [ pool-3-thread-11:958864 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 7
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:25:40  [ pool-3-thread-11:983811 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 7
+2014-09-03 17:25:44  [ pool-3-thread-11:987666 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 7
+2014-09-03 17:25:44  [ pool-3-thread-11:987668 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:25:44  [ pool-3-thread-11:987677 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 7
+2014-09-03 17:25:44  [ NioProcessor-3:987679 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 7
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:25:44  [ pool-3-thread-11:987687 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 7
+2014-09-03 17:25:44  [ pool-3-thread-11:987688 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 7
+2014-09-03 17:27:29  [ main:0 ] - [ INFO ]  写 超 时: 1000 ms
+2014-09-03 17:27:29  [ main:3 ] - [ INFO ]  发呆配置(Both Idle):90 ms
+2014-09-03 17:27:29  [ main:3 ] - [ INFO ]  服务端初始化完成......
+2014-09-03 17:27:29  [ main:4 ] - [ INFO ]  服务已启动....开始监听....[/0.0.0.0:9901, /0.0.0.0:8000]
+2014-09-03 17:27:35  [ NioProcessor-3:6770 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 2
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:27:35  [ pool-3-thread-1:6778 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 2
+2014-09-03 17:27:35  [ pool-3-thread-1:6778 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 2
+2014-09-03 17:27:35  [ NioProcessor-3:6793 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-03 17:27:38  [ NioProcessor-3:9383 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 2
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:27:38  [ pool-3-thread-1:9385 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 2
+2014-09-03 17:27:38  [ pool-3-thread-1:9403 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:27:38  [ pool-3-thread-1:9404 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000002: nio socket, server, /127.0.0.1:60061 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:27:40  [ pool-3-thread-1:11102 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:27:40  [ pool-3-thread-1:11103 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000002: nio socket, server, /127.0.0.1:60061 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:27:42  [ pool-3-thread-1:13444 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 2
+2014-09-03 17:27:42  [ NioProcessor-3:13451 ] - [ DEBUG ]  Adding event MESSAGE_SENT to session 2
+Queue : [MESSAGE_SENT, ]
+
+2014-09-03 17:27:42  [ pool-3-thread-1:13456 ] - [ DEBUG ]  Firing a MESSAGE_SENT event for session 2
+2014-09-03 17:27:42  [ pool-3-thread-1:13457 ] - [ INFO ]  已回应给Client
+2014-09-03 17:27:42  [ pool-3-thread-1:13457 ] - [ DEBUG ]  Event MESSAGE_SENT has been fired for session 2
+2014-09-03 17:27:42  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-03 17:29:12  [ NioProcessor-3:103478 ] - [ DEBUG ]  Adding event SESSION_IDLE to session 2
+Queue : [SESSION_IDLE, ]
+
+2014-09-03 17:29:12  [ pool-3-thread-2:103480 ] - [ DEBUG ]  Firing a SESSION_IDLE event for session 2
+2014-09-03 17:29:12  [ pool-3-thread-2:103481 ] - [ INFO ]  请求进入闲置状态....回路即将关闭....
+2014-09-03 17:29:12  [ pool-3-thread-2:103482 ] - [ DEBUG ]  Event SESSION_IDLE has been fired for session 2
+2014-09-03 17:29:12  [ NioProcessor-3:103483 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 2
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:29:12  [ pool-3-thread-2:103486 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 2
+2014-09-03 17:29:12  [ pool-3-thread-2:103488 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 2
+2014-09-03 17:31:57  [ NioProcessor-4:268769 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 3
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:31:57  [ pool-3-thread-3:268770 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 3
+2014-09-03 17:31:57  [ pool-3-thread-3:268772 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 3
+2014-09-03 17:31:57  [ NioProcessor-4:268805 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-03 17:32:37  [ NioProcessor-5:308477 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 4
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:32:37  [ pool-3-thread-4:308482 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 4
+2014-09-03 17:32:37  [ pool-3-thread-4:308483 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 4
+2014-09-03 17:32:37  [ NioProcessor-5:308515 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 4
+2014-09-03 17:32:37  [ NioProcessor-5:308515 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 4
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:32:37  [ pool-3-thread-4:308516 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 4
+2014-09-03 17:32:37  [ pool-3-thread-4:308519 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:32:37  [ pool-3-thread-4:308519 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000004: nio socket, server, /127.0.0.1:60176 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:32:37  [ pool-3-thread-4:308519 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:32:37  [ pool-3-thread-4:308520 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000004: nio socket, server, /127.0.0.1:60176 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:32:37  [ pool-3-thread-4:308520 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 4
+2014-09-03 17:32:37  [ NioProcessor-5:308521 ] - [ DEBUG ]  Adding event MESSAGE_SENT to session 4
+Queue : [MESSAGE_SENT, ]
+
+2014-09-03 17:32:37  [ pool-3-thread-4:308521 ] - [ DEBUG ]  Firing a MESSAGE_SENT event for session 4
+2014-09-03 17:32:37  [ pool-3-thread-4:308522 ] - [ INFO ]  已回应给Client
+2014-09-03 17:32:37  [ pool-3-thread-4:308522 ] - [ DEBUG ]  Event MESSAGE_SENT has been fired for session 4
+2014-09-03 17:32:37  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-03 17:33:41  [ NioProcessor-5:372720 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 4
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:33:41  [ NioProcessor-5:372722 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 4
+Queue : [EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-03 17:33:41  [ pool-3-thread-5:372727 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 4
+2014-09-03 17:33:41  [ pool-3-thread-5:372729 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:33:41  [ pool-3-thread-5:372734 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 4
+2014-09-03 17:33:41  [ pool-3-thread-5:372735 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 4
+2014-09-03 17:33:41  [ pool-3-thread-5:372735 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 4
+2014-09-03 17:34:36  [ NioProcessor-1:427749 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 5
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:34:36  [ pool-3-thread-6:427751 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 5
+2014-09-03 17:34:36  [ pool-3-thread-6:427752 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 5
+2014-09-03 17:34:36  [ NioProcessor-1:427790 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-03 17:34:36  [ NioProcessor-1:427791 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 5
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:34:36  [ pool-3-thread-6:427791 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 5
+2014-09-03 17:34:36  [ pool-3-thread-6:427794 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:34:36  [ pool-3-thread-6:427794 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000005: nio socket, server, /127.0.0.1:60194 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:34:36  [ pool-3-thread-6:427794 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:34:36  [ pool-3-thread-6:427794 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000005: nio socket, server, /127.0.0.1:60194 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:34:36  [ pool-3-thread-6:427795 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 5
+2014-09-03 17:34:36  [ NioProcessor-1:427795 ] - [ DEBUG ]  Adding event MESSAGE_SENT to session 5
+Queue : [MESSAGE_SENT, ]
+
+2014-09-03 17:34:36  [ pool-3-thread-6:427796 ] - [ DEBUG ]  Firing a MESSAGE_SENT event for session 5
+2014-09-03 17:34:36  [ pool-3-thread-6:427796 ] - [ INFO ]  已回应给Client
+2014-09-03 17:34:36  [ pool-3-thread-6:427796 ] - [ DEBUG ]  Event MESSAGE_SENT has been fired for session 5
+2014-09-03 17:34:36  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-03 17:36:06  [ NioProcessor-1:517820 ] - [ DEBUG ]  Adding event SESSION_IDLE to session 5
+Queue : [SESSION_IDLE, ]
+
+2014-09-03 17:36:06  [ pool-3-thread-7:517823 ] - [ DEBUG ]  Firing a SESSION_IDLE event for session 5
+2014-09-03 17:36:06  [ pool-3-thread-7:517828 ] - [ INFO ]  请求进入闲置状态....回路即将关闭....
+2014-09-03 17:36:06  [ NioProcessor-1:517845 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 5
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:36:06  [ pool-3-thread-7:517847 ] - [ DEBUG ]  Event SESSION_IDLE has been fired for session 5
+2014-09-03 17:36:07  [ pool-3-thread-7:517852 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 5
+2014-09-03 17:36:07  [ pool-3-thread-7:517853 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 5
+2014-09-03 17:37:09  [ NioProcessor-2:580808 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 6
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:37:09  [ pool-3-thread-9:580809 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 6
+2014-09-03 17:37:09  [ pool-3-thread-9:580810 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 6
+2014-09-03 17:37:09  [ NioProcessor-2:580833 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 6
+2014-09-03 17:37:09  [ NioProcessor-2:580834 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 6
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:37:09  [ pool-3-thread-9:580834 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 6
+2014-09-03 17:37:09  [ pool-3-thread-9:580837 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:37:09  [ pool-3-thread-9:580838 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000006: nio socket, server, /127.0.0.1:60221 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:37:09  [ pool-3-thread-9:580838 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:37:09  [ pool-3-thread-9:580838 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000006: nio socket, server, /127.0.0.1:60221 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:37:09  [ pool-3-thread-9:580839 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 6
+2014-09-03 17:37:09  [ NioProcessor-2:580839 ] - [ DEBUG ]  Adding event MESSAGE_SENT to session 6
+Queue : [MESSAGE_SENT, ]
+
+2014-09-03 17:37:09  [ pool-3-thread-9:580840 ] - [ DEBUG ]  Firing a MESSAGE_SENT event for session 6
+2014-09-03 17:37:09  [ pool-3-thread-9:580840 ] - [ INFO ]  已回应给Client
+2014-09-03 17:37:09  [ pool-3-thread-9:580840 ] - [ DEBUG ]  Event MESSAGE_SENT has been fired for session 6
+2014-09-03 17:37:09  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-03 17:38:40  [ NioProcessor-2:670855 ] - [ DEBUG ]  Adding event SESSION_IDLE to session 6
+Queue : [SESSION_IDLE, ]
+
+2014-09-03 17:38:40  [ pool-3-thread-11:670856 ] - [ DEBUG ]  Firing a SESSION_IDLE event for session 6
+2014-09-03 17:38:40  [ pool-3-thread-11:670856 ] - [ INFO ]  请求进入闲置状态....回路即将关闭....
+2014-09-03 17:38:40  [ NioProcessor-2:670857 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 6
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:38:40  [ pool-3-thread-11:670857 ] - [ DEBUG ]  Event SESSION_IDLE has been fired for session 6
+2014-09-03 17:38:40  [ pool-3-thread-11:670859 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 6
+2014-09-03 17:38:40  [ pool-3-thread-11:670860 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 6
+2014-09-03 17:39:39  [ NioProcessor-3:730404 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 7
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:39:39  [ pool-3-thread-13:730406 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 7
+2014-09-03 17:39:39  [ pool-3-thread-13:730406 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 7
+2014-09-03 17:39:39  [ NioProcessor-3:730430 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 7
+2014-09-03 17:39:39  [ NioProcessor-3:730431 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 7
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:39:39  [ pool-3-thread-13:730431 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 7
+2014-09-03 17:39:39  [ pool-3-thread-13:730433 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:39:39  [ pool-3-thread-13:730434 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000007: nio socket, server, /127.0.0.1:60247 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:39:39  [ pool-3-thread-13:730434 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:39:39  [ pool-3-thread-13:730434 ] - [ INFO ]  收到请求参数=[0]
+2014-09-03 17:39:39  [ pool-3-thread-13:730434 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000007: nio socket, server, /127.0.0.1:60247 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:39:39  [ pool-3-thread-13:730435 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 7
+2014-09-03 17:39:39  [ NioProcessor-3:730435 ] - [ DEBUG ]  Adding event MESSAGE_SENT to session 7
+Queue : [MESSAGE_SENT, ]
+
+2014-09-03 17:39:39  [ pool-3-thread-13:730436 ] - [ DEBUG ]  Firing a MESSAGE_SENT event for session 7
+2014-09-03 17:39:39  [ pool-3-thread-13:730436 ] - [ INFO ]  已回应给Client
+2014-09-03 17:39:39  [ pool-3-thread-13:730436 ] - [ DEBUG ]  Event MESSAGE_SENT has been fired for session 7
+2014-09-03 17:39:39  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-03 17:41:09  [ NioProcessor-3:820455 ] - [ DEBUG ]  Adding event SESSION_IDLE to session 7
+Queue : [SESSION_IDLE, ]
+
+2014-09-03 17:41:09  [ pool-3-thread-15:820456 ] - [ DEBUG ]  Firing a SESSION_IDLE event for session 7
+2014-09-03 17:41:09  [ pool-3-thread-15:820456 ] - [ INFO ]  请求进入闲置状态....回路即将关闭....
+2014-09-03 17:41:09  [ pool-3-thread-15:820457 ] - [ DEBUG ]  Event SESSION_IDLE has been fired for session 7
+2014-09-03 17:41:09  [ NioProcessor-3:820457 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 7
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:41:09  [ pool-3-thread-15:820457 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 7
+2014-09-03 17:41:09  [ pool-3-thread-15:820458 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 7
+2014-09-03 17:41:29  [ NioProcessor-5:840833 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 9
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:41:29  [ pool-3-thread-15:840833 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 9
+2014-09-03 17:41:29  [ pool-3-thread-15:840834 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 9
+2014-09-03 17:41:30  [ NioProcessor-5:840859 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 9
+2014-09-03 17:41:30  [ NioProcessor-5:840860 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 9
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:41:30  [ pool-3-thread-15:840860 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 9
+2014-09-03 17:41:30  [ pool-3-thread-15:840862 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:41:30  [ pool-3-thread-15:840863 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000009: nio socket, server, /127.0.0.1:60278 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:41:51  [ pool-3-thread-15:862320 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:41:51  [ pool-3-thread-15:862321 ] - [ INFO ]  收到请求data=[470]
+2014-09-03 17:41:51  [ pool-3-thread-15:862322 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000009: nio socket, server, /127.0.0.1:60278 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:41:51  [ pool-3-thread-15:862327 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 9
+2014-09-03 17:41:51  [ NioProcessor-2:1 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-03 17:41:51  [ NioProcessor-5:862333 ] - [ DEBUG ]  Adding event MESSAGE_SENT to session 9
+Queue : [MESSAGE_SENT, ]
+
+2014-09-03 17:41:51  [ pool-3-thread-15:862366 ] - [ DEBUG ]  Firing a MESSAGE_SENT event for session 9
+2014-09-03 17:41:51  [ pool-3-thread-15:862366 ] - [ INFO ]  已回应给Client
+2014-09-03 17:41:51  [ pool-3-thread-15:862366 ] - [ DEBUG ]  Event MESSAGE_SENT has been fired for session 9
+2014-09-03 17:41:52  [ NioProcessor-4:863730 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 3
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:41:52  [ NioProcessor-4:863730 ] - [ DEBUG ]  Adding event SESSION_IDLE to session 3
+Queue : [MESSAGE_RECEIVED, , SESSION_IDLE, ]
+
+2014-09-03 17:41:52  [ NioProcessor-4:863731 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 8
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:41:52  [ pool-3-thread-15:863736 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 3
+2014-09-03 17:41:52  [ pool-3-thread-15:863742 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:41:52  [ pool-3-thread-15:863745 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000003: nio socket, server, /127.0.0.1:60152 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:41:52  [ NioProcessor-4:863750 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 3
+Queue : [SESSION_IDLE, , EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:41:52  [ NioProcessor-4:863752 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 8
+2014-09-03 17:41:52  [ NioProcessor-4:863753 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 8
+Queue : [SESSION_OPENED, , MESSAGE_RECEIVED, ]
+
+2014-09-03 17:41:52  [ NioProcessor-4:863754 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 3
+Queue : [SESSION_IDLE, , EXCEPTION_CAUGHT, , SESSION_CLOSED, ]
+
+2014-09-03 17:41:52  [ pool-3-thread-16:863763 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 8
+2014-09-03 17:41:52  [ pool-3-thread-16:863765 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 8
+2014-09-03 17:41:52  [ pool-3-thread-16:863767 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 8
+2014-09-03 17:41:52  [ pool-3-thread-16:863775 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:41:52  [ pool-3-thread-16:863776 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000008: nio socket, server, /127.0.0.1:60263 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:41:53  [ pool-3-thread-15:864049 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:41:53  [ pool-3-thread-15:864049 ] - [ INFO ]  收到请求data=[470]
+2014-09-03 17:41:53  [ pool-3-thread-15:864049 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000003: nio socket, server, null => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:41:53  [ pool-3-thread-15:864065 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 3
+Queue : [SESSION_IDLE, , EXCEPTION_CAUGHT, , SESSION_CLOSED, , EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:41:53  [ pool-3-thread-15:864066 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 3
+2014-09-03 17:41:53  [ pool-3-thread-15:864066 ] - [ DEBUG ]  Firing a SESSION_IDLE event for session 3
+2014-09-03 17:41:53  [ pool-3-thread-15:864067 ] - [ INFO ]  请求进入闲置状态....回路即将关闭....
+2014-09-03 17:41:53  [ pool-3-thread-15:864067 ] - [ DEBUG ]  Event SESSION_IDLE has been fired for session 3
+2014-09-03 17:41:53  [ pool-3-thread-15:864067 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 3
+2014-09-03 17:41:53  [ pool-3-thread-15:864067 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:41:53  [ pool-3-thread-15:864069 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 3
+2014-09-03 17:41:53  [ pool-3-thread-15:864069 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 3
+2014-09-03 17:41:53  [ pool-3-thread-15:864070 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 3
+2014-09-03 17:41:53  [ pool-3-thread-15:864070 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 3
+2014-09-03 17:41:53  [ pool-3-thread-15:864070 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:41:53  [ pool-3-thread-15:864072 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 3
+2014-09-03 17:41:53  [ pool-3-thread-16:864569 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:41:53  [ pool-3-thread-16:864569 ] - [ INFO ]  收到请求data=[470]
+2014-09-03 17:41:53  [ pool-3-thread-16:864570 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000008: nio socket, server, /127.0.0.1:60263 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:41:53  [ pool-3-thread-16:864577 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 8
+2014-09-03 17:41:53  [ NioProcessor-4:864579 ] - [ DEBUG ]  Adding event MESSAGE_SENT to session 8
+Queue : [MESSAGE_SENT, ]
+
+2014-09-03 17:41:53  [ pool-3-thread-17:864580 ] - [ DEBUG ]  Firing a MESSAGE_SENT event for session 8
+2014-09-03 17:41:53  [ pool-3-thread-17:864580 ] - [ INFO ]  已回应给Client
+2014-09-03 17:41:53  [ pool-3-thread-17:864580 ] - [ DEBUG ]  Event MESSAGE_SENT has been fired for session 8
+2014-09-03 17:41:53  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-03 17:43:00  [ main:68521 ] - [ INFO ]  读取[/127.0.0.1:9901]超时
+2014-09-03 17:43:21  [ NioProcessor-5:952376 ] - [ DEBUG ]  Adding event SESSION_IDLE to session 9
+Queue : [SESSION_IDLE, ]
+
+2014-09-03 17:43:21  [ pool-3-thread-18:952378 ] - [ DEBUG ]  Firing a SESSION_IDLE event for session 9
+2014-09-03 17:43:21  [ pool-3-thread-18:952379 ] - [ INFO ]  请求进入闲置状态....回路即将关闭....
+2014-09-03 17:43:21  [ pool-3-thread-18:952381 ] - [ DEBUG ]  Event SESSION_IDLE has been fired for session 9
+2014-09-03 17:43:21  [ NioProcessor-5:952381 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 9
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:43:21  [ pool-3-thread-18:952382 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 9
+2014-09-03 17:43:21  [ pool-3-thread-18:952384 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 9
+2014-09-03 17:43:23  [ NioProcessor-4:954592 ] - [ DEBUG ]  Adding event SESSION_IDLE to session 8
+Queue : [SESSION_IDLE, ]
+
+2014-09-03 17:43:23  [ pool-3-thread-18:954593 ] - [ DEBUG ]  Firing a SESSION_IDLE event for session 8
+2014-09-03 17:43:23  [ pool-3-thread-18:954593 ] - [ INFO ]  请求进入闲置状态....回路即将关闭....
+2014-09-03 17:43:23  [ pool-3-thread-18:954594 ] - [ DEBUG ]  Event SESSION_IDLE has been fired for session 8
+2014-09-03 17:43:23  [ NioProcessor-4:954595 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 8
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:43:23  [ pool-3-thread-18:954597 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 8
+2014-09-03 17:43:23  [ pool-3-thread-18:954599 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 8
+2014-09-03 17:46:53  [ main:0 ] - [ INFO ]  写 超 时: 1000 ms
+2014-09-03 17:46:53  [ main:3 ] - [ INFO ]  发呆配置(Both Idle):90 ms
+2014-09-03 17:46:53  [ main:3 ] - [ INFO ]  服务端初始化完成......
+2014-09-03 17:46:53  [ main:3 ] - [ INFO ]  服务已启动....开始监听....[/0.0.0.0:9901, /0.0.0.0:8000]
+2014-09-03 17:47:34  [ NioProcessor-3:40537 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 2
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:47:34  [ pool-3-thread-1:40548 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 2
+2014-09-03 17:47:34  [ pool-3-thread-1:40549 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 2
+2014-09-03 17:47:34  [ NioProcessor-3:40561 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-03 17:47:34  [ NioProcessor-3:40566 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 2
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:47:34  [ pool-3-thread-1:40567 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 2
+2014-09-03 17:47:34  [ pool-3-thread-1:40567 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:47:34  [ pool-3-thread-1:40570 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 2
+2014-09-03 17:47:34  [ NioProcessor-3:40588 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 2
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:47:34  [ pool-3-thread-1:40588 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 2
+2014-09-03 17:47:34  [ pool-3-thread-1:40589 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 2
+2014-09-03 17:47:50  [ main:0 ] - [ INFO ]  写 超 时: 1000 ms
+2014-09-03 17:47:50  [ main:3 ] - [ INFO ]  发呆配置(Both Idle):90 ms
+2014-09-03 17:47:50  [ main:3 ] - [ INFO ]  服务端初始化完成......
+2014-09-03 17:47:50  [ main:3 ] - [ INFO ]  服务已启动....开始监听....[/0.0.0.0:9901, /0.0.0.0:8000]
+2014-09-03 17:47:58  [ NioProcessor-3:7754 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 2
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:47:58  [ pool-3-thread-1:7762 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 2
+2014-09-03 17:47:58  [ pool-3-thread-1:7762 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 2
+2014-09-03 17:47:58  [ NioProcessor-3:7774 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-03 17:47:58  [ NioProcessor-3:7780 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 2
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:47:58  [ pool-3-thread-1:7780 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 2
+2014-09-03 17:47:58  [ pool-3-thread-1:7780 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:47:58  [ pool-3-thread-1:7783 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 2
+2014-09-03 17:47:58  [ NioProcessor-3:7784 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 2
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:47:58  [ pool-3-thread-1:7784 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 2
+2014-09-03 17:47:58  [ pool-3-thread-1:7785 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 2
+2014-09-03 17:48:17  [ NioProcessor-4:26767 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 3
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:48:17  [ pool-3-thread-1:26771 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 3
+2014-09-03 17:48:17  [ pool-3-thread-1:26771 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 3
+2014-09-03 17:48:17  [ NioProcessor-4:26795 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-03 17:48:35  [ NioProcessor-4:45248 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 3
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:48:35  [ pool-3-thread-1:45249 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 3
+2014-09-03 17:48:35  [ pool-3-thread-1:45250 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:48:35  [ pool-3-thread-1:45260 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 3
+2014-09-03 17:48:35  [ NioProcessor-4:45262 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 3
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:48:35  [ pool-3-thread-1:45264 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 3
+2014-09-03 17:48:35  [ pool-3-thread-1:45267 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 3
+2014-09-03 17:48:39  [ NioProcessor-5:49276 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 4
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:48:39  [ pool-3-thread-1:49277 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 4
+2014-09-03 17:48:39  [ pool-3-thread-1:49277 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 4
+2014-09-03 17:48:39  [ NioProcessor-5:49301 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 4
+2014-09-03 17:49:22  [ NioProcessor-5:91627 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 4
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:49:22  [ pool-3-thread-3:91630 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 4
+2014-09-03 17:49:22  [ pool-3-thread-3:91631 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:49:22  [ pool-3-thread-3:91641 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 4
+2014-09-03 17:49:22  [ NioProcessor-5:91642 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 4
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:49:22  [ pool-3-thread-3:91646 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 4
+2014-09-03 17:49:22  [ pool-3-thread-3:91647 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 4
+2014-09-03 17:50:11  [ NioProcessor-1:141269 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 5
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:50:11  [ pool-3-thread-4:141271 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 5
+2014-09-03 17:50:11  [ pool-3-thread-4:141271 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 5
+2014-09-03 17:50:11  [ NioProcessor-1:141297 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-03 17:50:35  [ NioProcessor-1:165455 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 5
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:50:35  [ pool-3-thread-4:165456 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 5
+2014-09-03 17:50:35  [ pool-3-thread-4:165474 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:50:35  [ pool-3-thread-4:165475 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000005: nio socket, server, /127.0.0.1:60465 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:50:41  [ pool-3-thread-4:171302 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:50:48  [ pool-3-thread-4:178442 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000005: nio socket, server, /127.0.0.1:60465 => /127.0.0.1:9901)
+【收发标识】Response
+【报文内容】你好o！
+------------------------------------------------------------------------------------------
+2014-09-03 17:50:48  [ pool-3-thread-4:178470 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 5
+2014-09-03 17:50:48  [ NioProcessor-1:178471 ] - [ DEBUG ]  Adding event MESSAGE_SENT to session 5
+Queue : [MESSAGE_SENT, ]
+
+2014-09-03 17:50:48  [ pool-3-thread-4:178471 ] - [ DEBUG ]  Firing a MESSAGE_SENT event for session 5
+2014-09-03 17:50:48  [ pool-3-thread-4:178472 ] - [ INFO ]  已回应给Client
+2014-09-03 17:50:48  [ pool-3-thread-4:178472 ] - [ DEBUG ]  Event MESSAGE_SENT has been fired for session 5
+2014-09-03 17:50:48  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-03 17:51:45  [ NioProcessor-2:235318 ] - [ DEBUG ]  Adding event SESSION_OPENED to session 6
+Queue : [SESSION_OPENED, ]
+
+2014-09-03 17:51:45  [ pool-3-thread-5:235320 ] - [ DEBUG ]  Firing a SESSION_OPENED event for session 6
+2014-09-03 17:51:45  [ pool-3-thread-5:235320 ] - [ DEBUG ]  Event SESSION_OPENED has been fired for session 6
+2014-09-03 17:51:45  [ NioProcessor-2:235351 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 6
+2014-09-03 17:51:48  [ NioProcessor-2:238407 ] - [ DEBUG ]  Adding event MESSAGE_RECEIVED to session 6
+Queue : [MESSAGE_RECEIVED, ]
+
+2014-09-03 17:51:48  [ pool-3-thread-5:238408 ] - [ DEBUG ]  Firing a MESSAGE_RECEIVED event for session 6
+2014-09-03 17:51:48  [ pool-3-thread-5:238416 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:51:48  [ pool-3-thread-5:238421 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000006: nio socket, server, /127.0.0.1:60498 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:51:52  [ pool-3-thread-5:241759 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:52:16  [ pool-3-thread-5:265563 ] - [ INFO ]  渠道:TCP  交易码:10005  完整报文(HEX):
+------------------------------------------------------------------------
+0000: 30 30 30 30 34 37 31 30 30 30 35 31 30 31 31 30 | 0000471000510110
+0010: 31 39 39 32 30 31 32 30 39 32 32 32 32 34 30 30 | 1992012092222400
+0020: 30 30 30 32 30 31 33 30 37 30 37 31 36 30 35    | 000201307071605
+------------------------------------------------------------------------
+2014-09-03 17:52:16  [ pool-3-thread-5:265564 ] - [ INFO ]  
+------------------------------------------------------------------------------------------
+【通信双方】(0x00000006: nio socket, server, /127.0.0.1:60498 => /127.0.0.1:9901)
+【收发标识】Receive
+【报文内容】00004710005101101992012092222400000201307071605
+------------------------------------------------------------------------------------------
+2014-09-03 17:52:18  [ pool-3-thread-5:268269 ] - [ INFO ]  收到请求参数=[00004710005101101992012092222400000201307071605]
+2014-09-03 17:52:18  [ NioProcessor-1:268493 ] - [ DEBUG ]  Adding event SESSION_IDLE to session 5
+Queue : [SESSION_IDLE, ]
+
+2014-09-03 17:52:18  [ pool-3-thread-6:268495 ] - [ DEBUG ]  Firing a SESSION_IDLE event for session 5
+2014-09-03 17:52:18  [ pool-3-thread-6:268495 ] - [ INFO ]  请求进入闲置状态....回路即将关闭....
+2014-09-03 17:52:18  [ pool-3-thread-6:268496 ] - [ DEBUG ]  Event SESSION_IDLE has been fired for session 5
+2014-09-03 17:52:18  [ NioProcessor-1:268497 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 5
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:52:18  [ pool-3-thread-6:268499 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 5
+2014-09-03 17:52:18  [ pool-3-thread-6:268501 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 5
+2014-09-03 17:52:26  [ pool-3-thread-5:275945 ] - [ DEBUG ]  Adding event EXCEPTION_CAUGHT to session 6
+Queue : [EXCEPTION_CAUGHT, ]
+
+2014-09-03 17:52:26  [ pool-3-thread-5:275946 ] - [ DEBUG ]  Event MESSAGE_RECEIVED has been fired for session 6
+2014-09-03 17:52:26  [ pool-3-thread-5:275946 ] - [ DEBUG ]  Firing a EXCEPTION_CAUGHT event for session 6
+2014-09-03 17:52:26  [ pool-3-thread-5:275946 ] - [ INFO ]  请求处理遇到异常....回路即将关闭....
+2014-09-03 17:52:26  [ pool-3-thread-5:275951 ] - [ DEBUG ]  Event EXCEPTION_CAUGHT has been fired for session 6
+2014-09-03 17:52:26  [ NioProcessor-2:275953 ] - [ DEBUG ]  Adding event SESSION_CLOSED to session 6
+Queue : [SESSION_CLOSED, ]
+
+2014-09-03 17:52:26  [ pool-3-thread-6:275961 ] - [ DEBUG ]  Firing a SESSION_CLOSED event for session 6
+2014-09-03 17:52:26  [ pool-3-thread-6:275962 ] - [ DEBUG ]  Event SESSION_CLOSED has been fired for session 6

@@ -1,0 +1,128 @@
+2014-09-09 14:56:56  [ main:0 ] - [ INFO ]  server start success the port is 6602
+2014-09-09 14:58:22  [ NioProcessor-2:85913 ] - [ INFO ]  the session is created !
+2014-09-09 14:58:22  [ NioProcessor-2:85914 ] - [ INFO ]  the session is opened !
+2014-09-09 14:58:22  [ NioProcessor-2:85986 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 14:58:22  [ NioProcessor-2:85999 ] - [ INFO ]  the session is closed !
+2014-09-09 14:58:23  [ NioProcessor-3:86969 ] - [ INFO ]  the session is created !
+2014-09-09 14:58:23  [ NioProcessor-3:86970 ] - [ INFO ]  the session is opened !
+2014-09-09 14:58:23  [ NioProcessor-3:86970 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 14:58:23  [ NioProcessor-3:86970 ] - [ INFO ]  the session is closed !
+2014-09-09 14:59:30  [ NioProcessor-4:153383 ] - [ INFO ]  the session is created !
+2014-09-09 14:59:30  [ NioProcessor-4:153384 ] - [ INFO ]  the session is opened !
+2014-09-09 14:59:30  [ NioProcessor-4:153385 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 14:59:30  [ NioProcessor-4:153385 ] - [ INFO ]  the session is closed !
+2014-09-09 14:59:31  [ NioProcessor-5:154364 ] - [ INFO ]  the session is created !
+2014-09-09 14:59:31  [ NioProcessor-5:154365 ] - [ INFO ]  the session is opened !
+2014-09-09 14:59:31  [ NioProcessor-5:154367 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 14:59:31  [ NioProcessor-5:154373 ] - [ INFO ]  the session is closed !
+2014-09-09 15:00:35  [ main:1 ] - [ INFO ]  server start success the port is 6602
+2014-09-09 15:00:58  [ NioProcessor-2:22414 ] - [ INFO ]  the session is created !
+2014-09-09 15:00:58  [ NioProcessor-2:22414 ] - [ INFO ]  the session is opened !
+2014-09-09 15:00:58  [ NioProcessor-2:22414 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:00:58  [ NioProcessor-2:22414 ] - [ INFO ]  the session is closed !
+2014-09-09 15:00:59  [ NioProcessor-3:23418 ] - [ INFO ]  the session is created !
+2014-09-09 15:00:59  [ NioProcessor-3:23419 ] - [ INFO ]  the session is opened !
+2014-09-09 15:00:59  [ NioProcessor-3:23420 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:00:59  [ NioProcessor-3:23423 ] - [ INFO ]  the session is closed !
+2014-09-09 15:01:10  [ NioProcessor-4:34644 ] - [ INFO ]  the session is created !
+2014-09-09 15:01:11  [ NioProcessor-5:35683 ] - [ INFO ]  the session is created !
+2014-09-09 15:01:20  [ NioProcessor-4:44668 ] - [ INFO ]  the session is opened !
+2014-09-09 15:01:31  [ NioProcessor-4:55798 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:01:31  [ NioProcessor-4:55800 ] - [ INFO ]  the session is closed !
+2014-09-09 15:01:33  [ NioProcessor-5:57412 ] - [ INFO ]  the session is opened !
+2014-09-09 15:01:33  [ NioProcessor-5:57412 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:01:33  [ NioProcessor-5:57429 ] - [ INFO ]  the session is closed !
+2014-09-09 15:01:40  [ NioProcessor-1:65116 ] - [ INFO ]  the session is created !
+2014-09-09 15:01:42  [ NioProcessor-2:66253 ] - [ INFO ]  the session is created !
+2014-09-09 15:02:32  [ NioProcessor-1:117025 ] - [ INFO ]  the session is opened !
+2014-09-09 15:03:27  [ NioProcessor-1:172126 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:03:30  [ NioProcessor-1:174963 ] - [ INFO ]  the session is closed !
+2014-09-09 15:03:50  [ NioProcessor-2:194337 ] - [ INFO ]  the session is opened !
+2014-09-09 15:03:50  [ NioProcessor-2:194337 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:03:50  [ NioProcessor-2:194337 ] - [ INFO ]  the session is closed !
+2014-09-09 15:04:45  [ NioProcessor-3:250112 ] - [ INFO ]  the session is created !
+2014-09-09 15:04:46  [ NioProcessor-4:251031 ] - [ INFO ]  the session is created !
+2014-09-09 15:07:09  [ NioProcessor-3:393404 ] - [ INFO ]  the session is opened !
+2014-09-09 15:07:09  [ NioProcessor-3:393405 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:07:09  [ NioProcessor-3:393405 ] - [ INFO ]  the session is closed !
+2014-09-09 15:07:11  [ NioProcessor-4:396122 ] - [ INFO ]  the session is opened !
+2014-09-09 15:07:11  [ NioProcessor-4:396124 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:07:11  [ NioProcessor-4:396126 ] - [ INFO ]  the session is closed !
+2014-09-09 15:07:54  [ NioProcessor-5:438765 ] - [ INFO ]  the session is created !
+2014-09-09 15:07:54  [ NioProcessor-5:438765 ] - [ INFO ]  the session is opened !
+2014-09-09 15:07:54  [ NioProcessor-5:438766 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:07:54  [ NioProcessor-5:438766 ] - [ INFO ]  the session is closed !
+2014-09-09 15:07:55  [ NioProcessor-1:439751 ] - [ INFO ]  the session is created !
+2014-09-09 15:07:55  [ NioProcessor-1:439752 ] - [ INFO ]  the session is opened !
+2014-09-09 15:07:55  [ NioProcessor-1:439755 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:07:55  [ NioProcessor-1:439756 ] - [ INFO ]  the session is closed !
+2014-09-09 15:22:18  [ NioProcessor-2:1302866 ] - [ INFO ]  the session is created !
+2014-09-09 15:22:18  [ NioProcessor-2:1302867 ] - [ INFO ]  the session is opened !
+2014-09-09 15:22:18  [ NioProcessor-2:1303126 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 11
+2014-09-09 15:24:06  [ NioProcessor-3:1410391 ] - [ INFO ]  the session is created !
+2014-09-09 15:24:06  [ NioProcessor-3:1410391 ] - [ INFO ]  the session is opened !
+2014-09-09 15:24:06  [ NioProcessor-3:1410457 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 12
+2014-09-09 15:28:20  [ NioProcessor-4:1664964 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:20  [ NioProcessor-4:1664964 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:20  [ NioProcessor-4:1664964 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:20  [ NioProcessor-4:1664964 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:21  [ NioProcessor-5:1666057 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:21  [ NioProcessor-5:1666058 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:21  [ NioProcessor-5:1666059 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:21  [ NioProcessor-5:1666060 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:50  [ NioProcessor-1:1694560 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:50  [ NioProcessor-1:1694560 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:50  [ NioProcessor-1:1694560 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:50  [ NioProcessor-1:1694560 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:51  [ NioProcessor-2:1695550 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:51  [ NioProcessor-2:1695550 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:51  [ NioProcessor-2:1695550 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:51  [ NioProcessor-2:1695550 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:52  [ NioProcessor-3:1696626 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:52  [ NioProcessor-3:1696626 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:52  [ NioProcessor-3:1696626 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:52  [ NioProcessor-3:1696626 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:54  [ NioProcessor-4:1698483 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:54  [ NioProcessor-4:1698483 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:54  [ NioProcessor-5:1698483 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:54  [ NioProcessor-4:1698483 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:54  [ NioProcessor-5:1698483 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:54  [ NioProcessor-4:1698483 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:54  [ NioProcessor-5:1698499 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:54  [ NioProcessor-5:1698499 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:54  [ NioProcessor-1:1698874 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:54  [ NioProcessor-2:1698874 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:54  [ NioProcessor-2:1698874 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:54  [ NioProcessor-1:1698874 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:54  [ NioProcessor-2:1698874 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:54  [ NioProcessor-1:1698874 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:54  [ NioProcessor-2:1698874 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:54  [ NioProcessor-1:1698874 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:55  [ NioProcessor-3:1699935 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:55  [ NioProcessor-3:1699935 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:55  [ NioProcessor-3:1699935 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:55  [ NioProcessor-4:1699935 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:55  [ NioProcessor-4:1699935 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:55  [ NioProcessor-3:1699935 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:55  [ NioProcessor-4:1699935 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:55  [ NioProcessor-4:1699951 ] - [ INFO ]  the session is closed !
+2014-09-09 15:28:56  [ NioProcessor-5:1700716 ] - [ INFO ]  the session is created !
+2014-09-09 15:28:56  [ NioProcessor-5:1700716 ] - [ INFO ]  the session is opened !
+2014-09-09 15:28:56  [ NioProcessor-5:1700732 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:28:56  [ NioProcessor-5:1700732 ] - [ INFO ]  the session is closed !
+2014-09-09 15:30:06  [ NioProcessor-1:1770230 ] - [ INFO ]  the session is created !
+2014-09-09 15:30:06  [ NioProcessor-1:1770230 ] - [ INFO ]  the session is opened !
+2014-09-09 15:30:06  [ NioProcessor-1:1770230 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:30:06  [ NioProcessor-1:1770230 ] - [ INFO ]  the session is closed !
+2014-09-09 15:30:07  [ NioProcessor-2:1771307 ] - [ INFO ]  the session is created !
+2014-09-09 15:30:07  [ NioProcessor-2:1771307 ] - [ INFO ]  the session is opened !
+2014-09-09 15:30:07  [ NioProcessor-2:1771307 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:30:07  [ NioProcessor-2:1771307 ] - [ INFO ]  the session is closed !
+2014-09-09 15:35:35  [ NioProcessor-3:2100010 ] - [ INFO ]  the session is created !
+2014-09-09 15:35:35  [ NioProcessor-3:2100011 ] - [ INFO ]  the session is opened !
+2014-09-09 15:35:35  [ NioProcessor-3:2100013 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:35:35  [ NioProcessor-3:2100014 ] - [ INFO ]  the session is closed !
+2014-09-09 15:35:36  [ NioProcessor-4:2101001 ] - [ INFO ]  the session is created !
+2014-09-09 15:35:36  [ NioProcessor-4:2101001 ] - [ INFO ]  the session is opened !
+2014-09-09 15:35:36  [ NioProcessor-4:2101002 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-09 15:35:36  [ NioProcessor-4:2101004 ] - [ INFO ]  the session is closed !

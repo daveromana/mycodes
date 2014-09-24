@@ -1,0 +1,840 @@
+2014-09-11 09:51:32  [ main:0 ] - [ INFO ]  server start success the port is 6602
+2014-09-11 09:51:38  [ NioProcessor-2:6008 ] - [ INFO ]  the session is created !
+2014-09-11 09:51:38  [ NioProcessor-2:6008 ] - [ INFO ]  the session is opened !
+2014-09-11 09:51:38  [ NioProcessor-2:6008 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-11 09:51:48  [ NioProcessor-3:15930 ] - [ INFO ]  the session is created !
+2014-09-11 09:51:48  [ NioProcessor-3:15946 ] - [ INFO ]  the session is opened !
+2014-09-11 09:51:48  [ NioProcessor-3:15946 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-11 09:51:53  [ NioProcessor-4:21313 ] - [ INFO ]  the session is created !
+2014-09-11 09:51:53  [ NioProcessor-4:21313 ] - [ INFO ]  the session is opened !
+2014-09-11 09:51:53  [ NioProcessor-4:21313 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-11 09:52:00  [ NioProcessor-5:28584 ] - [ INFO ]  the session is created !
+2014-09-11 09:52:00  [ NioProcessor-5:28584 ] - [ INFO ]  the session is opened !
+2014-09-11 09:52:00  [ NioProcessor-5:28600 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 4
+2014-09-11 09:52:04  [ NioProcessor-1:31956 ] - [ INFO ]  the session is created !
+2014-09-11 09:52:04  [ NioProcessor-1:31956 ] - [ INFO ]  the session is opened !
+2014-09-11 09:52:04  [ NioProcessor-1:31956 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-11 09:53:13  [ NioProcessor-2:100944 ] - [ INFO ]  the session is created !
+2014-09-11 09:53:13  [ NioProcessor-2:100944 ] - [ INFO ]  the session is opened !
+2014-09-11 09:53:13  [ NioProcessor-2:100960 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-11 09:53:13  [ NioProcessor-2:100977 ] - [ INFO ]  the session is closed !
+2014-09-11 09:53:13  [ NioProcessor-3:101460 ] - [ INFO ]  the session is created !
+2014-09-11 09:53:13  [ NioProcessor-3:101460 ] - [ INFO ]  the session is opened !
+2014-09-11 09:53:13  [ NioProcessor-3:101460 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 7
+2014-09-11 09:53:19  [ NioProcessor-4:107560 ] - [ INFO ]  the session is created !
+2014-09-11 09:53:19  [ NioProcessor-4:107560 ] - [ INFO ]  the session is opened !
+2014-09-11 09:53:19  [ NioProcessor-4:107560 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 8
+2014-09-11 09:53:21  [ NioProcessor-5:109214 ] - [ INFO ]  the session is created !
+2014-09-11 09:53:21  [ NioProcessor-5:109214 ] - [ INFO ]  the session is opened !
+2014-09-11 09:53:21  [ NioProcessor-5:109230 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 9
+2014-09-11 09:53:29  [ NioProcessor-1:117796 ] - [ INFO ]  the session is created !
+2014-09-11 09:53:29  [ NioProcessor-1:117796 ] - [ INFO ]  the session is opened !
+2014-09-11 09:53:29  [ NioProcessor-1:117796 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 10
+2014-09-11 09:53:33  [ NioProcessor-2:121354 ] - [ INFO ]  the session is created !
+2014-09-11 09:53:33  [ NioProcessor-2:121354 ] - [ INFO ]  the session is opened !
+2014-09-11 09:53:33  [ NioProcessor-2:121354 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 11
+2014-09-11 09:53:34  [ NioProcessor-3:122229 ] - [ INFO ]  the session is created !
+2014-09-11 09:53:34  [ NioProcessor-3:122229 ] - [ INFO ]  the session is opened !
+2014-09-11 09:53:34  [ NioProcessor-3:122229 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 12
+2014-09-11 09:53:58  [ NioProcessor-4:146113 ] - [ INFO ]  the session is created !
+2014-09-11 09:53:58  [ NioProcessor-4:146113 ] - [ INFO ]  the session is opened !
+2014-09-11 09:53:58  [ NioProcessor-4:146113 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 13
+2014-09-11 09:54:00  [ NioProcessor-5:148080 ] - [ INFO ]  the session is created !
+2014-09-11 09:54:00  [ NioProcessor-5:148080 ] - [ INFO ]  the session is opened !
+2014-09-11 09:54:00  [ NioProcessor-5:148080 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 14
+2014-09-11 09:54:00  [ NioProcessor-1:148705 ] - [ INFO ]  the session is created !
+2014-09-11 09:54:00  [ NioProcessor-1:148705 ] - [ INFO ]  the session is opened !
+2014-09-11 09:54:00  [ NioProcessor-1:148705 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 15
+2014-09-11 10:03:18  [ NioProcessor-2:706451 ] - [ INFO ]  the session is created !
+2014-09-11 10:03:18  [ NioProcessor-2:706452 ] - [ INFO ]  the session is opened !
+2014-09-11 10:03:18  [ NioProcessor-2:706453 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 16
+2014-09-11 10:51:42  [ NioProcessor-3:3610814 ] - [ INFO ]  the session is created !
+2014-09-11 10:51:42  [ NioProcessor-3:3610814 ] - [ INFO ]  the session is opened !
+2014-09-11 10:51:43  [ NioProcessor-3:3610892 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 17
+2014-09-11 10:52:50  [ NioProcessor-3:3678349 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:08  [ NioProcessor-4:15936452 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:09  [ NioProcessor-4:15936920 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:10  [ NioProcessor-4:15938278 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-11 14:17:10  [ NioProcessor-4:15938341 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:13  [ NioProcessor-5:15941165 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:13  [ NioProcessor-5:15941165 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:13  [ NioProcessor-5:15941306 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-11 14:17:13  [ NioProcessor-5:15941369 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:30  [ NioProcessor-1:15958108 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:30  [ NioProcessor-1:15958108 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:30  [ NioProcessor-1:15958359 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 20
+2014-09-11 14:17:33  [ NioProcessor-2:15961151 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:33  [ NioProcessor-2:15961151 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:33  [ NioProcessor-2:15961151 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 21
+2014-09-11 14:17:35  [ NioProcessor-3:15962934 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:35  [ NioProcessor-3:15962934 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:35  [ NioProcessor-3:15962949 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-11 14:17:35  [ NioProcessor-4:15963013 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:35  [ NioProcessor-4:15963013 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:35  [ NioProcessor-3:15963013 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:35  [ NioProcessor-4:15963013 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 23
+2014-09-11 14:17:36  [ NioProcessor-5:15964245 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:36  [ NioProcessor-5:15964245 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:36  [ NioProcessor-5:15964245 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 24
+2014-09-11 14:17:37  [ NioProcessor-1:15964980 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:37  [ NioProcessor-1:15964980 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:37  [ NioProcessor-1:15964980 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 25
+2014-09-11 14:17:37  [ NioProcessor-2:15965494 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:37  [ NioProcessor-2:15965494 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:37  [ NioProcessor-2:15965494 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 26
+2014-09-11 14:17:37  [ NioProcessor-3:15965807 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:37  [ NioProcessor-3:15965807 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:37  [ NioProcessor-3:15965807 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 27
+2014-09-11 14:17:38  [ NioProcessor-4:15966026 ] - [ INFO ]  the session is created !
+2014-09-11 14:17:38  [ NioProcessor-4:15966026 ] - [ INFO ]  the session is opened !
+2014-09-11 14:17:38  [ NioProcessor-4:15966026 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 28
+2014-09-11 14:17:59  [ NioProcessor-1:15987555 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:59  [ NioProcessor-1:15987586 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:59  [ NioProcessor-3:15987586 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:59  [ NioProcessor-4:15987602 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:59  [ NioProcessor-5:15987603 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:59  [ NioProcessor-2:15987586 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:59  [ NioProcessor-4:15987603 ] - [ INFO ]  the session is closed !
+2014-09-11 14:17:59  [ NioProcessor-2:15987603 ] - [ INFO ]  the session is closed !
+2014-09-11 14:29:38  [ NioProcessor-5:16686769 ] - [ INFO ]  the session is created !
+2014-09-11 14:29:38  [ NioProcessor-5:16686769 ] - [ INFO ]  the session is opened !
+2014-09-11 14:29:39  [ NioProcessor-5:16686856 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 29
+2014-09-11 14:29:45  [ NioProcessor-1:16693131 ] - [ INFO ]  the session is created !
+2014-09-11 14:29:45  [ NioProcessor-1:16693132 ] - [ INFO ]  the session is opened !
+2014-09-11 14:29:45  [ NioProcessor-1:16693159 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 30
+2014-09-11 14:31:01  [ NioProcessor-2:16769148 ] - [ INFO ]  the session is created !
+2014-09-11 14:31:01  [ NioProcessor-2:16769149 ] - [ INFO ]  the session is opened !
+2014-09-11 14:31:01  [ NioProcessor-2:16769172 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 31
+2014-09-11 14:31:06  [ NioProcessor-3:16774573 ] - [ INFO ]  the session is created !
+2014-09-11 14:31:06  [ NioProcessor-3:16774574 ] - [ INFO ]  the session is opened !
+2014-09-11 14:31:06  [ NioProcessor-3:16774586 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 32
+2014-09-11 14:31:09  [ NioProcessor-4:16777185 ] - [ INFO ]  the session is created !
+2014-09-11 14:31:09  [ NioProcessor-4:16777186 ] - [ INFO ]  the session is opened !
+2014-09-11 14:31:09  [ NioProcessor-4:16777216 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 33
+2014-09-11 14:31:15  [ NioProcessor-5:16783333 ] - [ INFO ]  the session is created !
+2014-09-11 14:31:15  [ NioProcessor-5:16783333 ] - [ INFO ]  the session is opened !
+2014-09-11 14:31:15  [ NioProcessor-5:16783334 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 34
+2014-09-11 14:33:07  [ NioProcessor-1:16895027 ] - [ INFO ]  the session is created !
+2014-09-11 14:33:07  [ NioProcessor-1:16895028 ] - [ INFO ]  the session is opened !
+2014-09-11 14:33:07  [ NioProcessor-1:16895052 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 35
+2014-09-11 14:33:11  [ NioProcessor-2:16899057 ] - [ INFO ]  the session is created !
+2014-09-11 14:33:11  [ NioProcessor-2:16899058 ] - [ INFO ]  the session is opened !
+2014-09-11 14:33:11  [ NioProcessor-2:16899059 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 36
+2014-09-11 16:48:00  [ NioProcessor-3:24988722 ] - [ INFO ]  the session is created !
+2014-09-11 16:48:01  [ NioProcessor-3:24989339 ] - [ INFO ]  the session is opened !
+2014-09-11 16:48:01  [ NioProcessor-3:24989499 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 37
+2014-09-11 16:48:15  [ NioProcessor-4:25002879 ] - [ INFO ]  the session is created !
+2014-09-11 16:48:15  [ NioProcessor-4:25002880 ] - [ INFO ]  the session is opened !
+2014-09-11 16:48:15  [ NioProcessor-4:25002952 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 38
+2014-09-11 16:48:44  [ NioProcessor-5:25032765 ] - [ INFO ]  the session is created !
+2014-09-11 16:48:44  [ NioProcessor-5:25032765 ] - [ INFO ]  the session is opened !
+2014-09-11 16:48:44  [ NioProcessor-5:25032765 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 39
+2014-09-11 16:49:26  [ main:0 ] - [ INFO ]  server start success the port is 6602
+2014-09-11 16:50:35  [ NioProcessor-2:69512 ] - [ INFO ]  the session is created !
+2014-09-11 16:50:35  [ NioProcessor-2:69513 ] - [ INFO ]  the session is opened !
+2014-09-11 16:50:35  [ NioProcessor-2:69523 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-11 16:52:47  [ NioProcessor-2:201103 ] - [ INFO ]  the session is closed !
+2014-09-11 16:53:05  [ NioProcessor-3:219743 ] - [ INFO ]  the session is created !
+2014-09-11 16:53:05  [ NioProcessor-3:219744 ] - [ INFO ]  the session is opened !
+2014-09-11 16:53:05  [ NioProcessor-3:219766 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-11 16:53:14  [ NioProcessor-4:228551 ] - [ INFO ]  the session is created !
+2014-09-11 16:53:14  [ NioProcessor-4:228552 ] - [ INFO ]  the session is opened !
+2014-09-11 16:53:14  [ NioProcessor-4:228553 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-11 16:55:28  [ main:0 ] - [ INFO ]  server start success the port is 6602
+2014-09-11 16:55:31  [ NioProcessor-2:3541 ] - [ INFO ]  the session is created !
+2014-09-11 16:55:31  [ NioProcessor-2:3542 ] - [ INFO ]  the session is opened !
+2014-09-11 16:55:31  [ NioProcessor-2:3547 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-11 16:55:35  [ NioProcessor-3:7139 ] - [ INFO ]  the session is created !
+2014-09-11 16:55:35  [ NioProcessor-3:7149 ] - [ INFO ]  the session is opened !
+2014-09-11 16:55:35  [ NioProcessor-3:7151 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-11 16:55:38  [ NioProcessor-4:10550 ] - [ INFO ]  the session is created !
+2014-09-11 16:55:38  [ NioProcessor-4:10551 ] - [ INFO ]  the session is opened !
+2014-09-11 16:55:38  [ NioProcessor-4:10585 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-11 16:55:44  [ NioProcessor-5:15901 ] - [ INFO ]  the session is created !
+2014-09-11 16:55:44  [ NioProcessor-5:15904 ] - [ INFO ]  the session is opened !
+2014-09-11 16:55:44  [ NioProcessor-5:15916 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 4
+2014-09-11 16:56:00  [ NioProcessor-1:32395 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:00  [ NioProcessor-1:32396 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:00  [ NioProcessor-1:32472 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-11 16:56:04  [ NioProcessor-2:35934 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:04  [ NioProcessor-2:35934 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:04  [ NioProcessor-2:35934 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 6
+2014-09-11 16:56:07  [ NioProcessor-3:39376 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:07  [ NioProcessor-3:39377 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:07  [ NioProcessor-3:39383 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 7
+2014-09-11 16:56:10  [ NioProcessor-4:41986 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:10  [ NioProcessor-4:41987 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:10  [ NioProcessor-4:42051 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 8
+2014-09-11 16:56:11  [ NioProcessor-5:43082 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:11  [ NioProcessor-5:43083 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:11  [ NioProcessor-5:43126 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 9
+2014-09-11 16:56:12  [ NioProcessor-1:44812 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:12  [ NioProcessor-1:44813 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:13  [ NioProcessor-1:44847 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 10
+2014-09-11 16:56:13  [ NioProcessor-2:45581 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:13  [ NioProcessor-2:45581 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:13  [ NioProcessor-2:45786 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 11
+2014-09-11 16:56:14  [ NioProcessor-3:46215 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:14  [ NioProcessor-3:46215 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:14  [ NioProcessor-3:46280 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 12
+2014-09-11 16:56:15  [ NioProcessor-4:47440 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:15  [ NioProcessor-4:47441 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:15  [ NioProcessor-4:47458 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 13
+2014-09-11 16:56:17  [ NioProcessor-5:48871 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:17  [ NioProcessor-5:48872 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:17  [ NioProcessor-5:49212 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 14
+2014-09-11 16:56:17  [ NioProcessor-1:49365 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:17  [ NioProcessor-1:49366 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:17  [ NioProcessor-1:49391 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 15
+2014-09-11 16:56:17  [ NioProcessor-2:49767 ] - [ INFO ]  the session is created !
+2014-09-11 16:56:17  [ NioProcessor-2:49767 ] - [ INFO ]  the session is opened !
+2014-09-11 16:56:17  [ NioProcessor-2:49811 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 16
+2014-09-11 16:57:24  [ NioProcessor-3:116425 ] - [ INFO ]  the session is created !
+2014-09-11 16:57:24  [ NioProcessor-3:116426 ] - [ INFO ]  the session is opened !
+2014-09-11 16:57:24  [ NioProcessor-3:116427 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 17
+2014-09-11 16:58:44  [ NioProcessor-4:196254 ] - [ INFO ]  the session is created !
+2014-09-11 16:58:44  [ NioProcessor-4:196254 ] - [ INFO ]  the session is opened !
+2014-09-11 16:58:44  [ NioProcessor-4:196400 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 18
+2014-09-11 16:59:05  [ NioProcessor-5:217438 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:05  [ NioProcessor-5:217439 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:05  [ NioProcessor-5:217440 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 19
+2014-09-11 16:59:19  [ NioProcessor-1:231750 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:19  [ NioProcessor-1:231752 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:19  [ NioProcessor-1:231770 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 20
+2014-09-11 16:59:24  [ NioProcessor-2:236150 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:24  [ NioProcessor-2:236151 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:24  [ NioProcessor-2:236188 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 21
+2014-09-11 16:59:28  [ NioProcessor-3:239890 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:28  [ NioProcessor-3:239890 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:28  [ NioProcessor-3:239895 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 22
+2014-09-11 16:59:31  [ NioProcessor-4:243453 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:31  [ NioProcessor-4:243454 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:31  [ NioProcessor-4:243485 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 23
+2014-09-11 16:59:33  [ NioProcessor-5:245483 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:33  [ NioProcessor-5:245484 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:33  [ NioProcessor-5:245491 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 24
+2014-09-11 16:59:34  [ NioProcessor-1:246556 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:34  [ NioProcessor-1:246556 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:34  [ NioProcessor-1:246557 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 25
+2014-09-11 16:59:36  [ NioProcessor-2:247937 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:36  [ NioProcessor-2:247938 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:36  [ NioProcessor-2:247939 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 26
+2014-09-11 16:59:49  [ main:0 ] - [ INFO ]  server start success the port is 6602
+2014-09-11 16:59:51  [ NioProcessor-2:1892 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:51  [ NioProcessor-2:1893 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:51  [ NioProcessor-2:1901 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-11 16:59:54  [ NioProcessor-3:5589 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:54  [ NioProcessor-3:5605 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:54  [ NioProcessor-3:5608 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-11 16:59:55  [ NioProcessor-4:6743 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:55  [ NioProcessor-4:6744 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:55  [ NioProcessor-4:6758 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-11 16:59:57  [ NioProcessor-5:7954 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:57  [ NioProcessor-5:7955 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:57  [ NioProcessor-5:8346 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 4
+2014-09-11 16:59:57  [ NioProcessor-1:8529 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:57  [ NioProcessor-1:8530 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:57  [ NioProcessor-1:8530 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-11 16:59:58  [ NioProcessor-2:8908 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:58  [ NioProcessor-2:8909 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:58  [ NioProcessor-2:8944 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 6
+2014-09-11 16:59:58  [ NioProcessor-3:9090 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:58  [ NioProcessor-3:9090 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:58  [ NioProcessor-3:9105 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 7
+2014-09-11 16:59:58  [ NioProcessor-4:9460 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:58  [ NioProcessor-4:9461 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:58  [ NioProcessor-4:9461 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 8
+2014-09-11 16:59:58  [ NioProcessor-5:9706 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:58  [ NioProcessor-5:9707 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:58  [ NioProcessor-5:9707 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 9
+2014-09-11 16:59:59  [ NioProcessor-1:9891 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:59  [ NioProcessor-1:9892 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:59  [ NioProcessor-1:9894 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 10
+2014-09-11 16:59:59  [ NioProcessor-2:10068 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:59  [ NioProcessor-2:10068 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:59  [ NioProcessor-2:10079 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 11
+2014-09-11 16:59:59  [ NioProcessor-3:10228 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:59  [ NioProcessor-3:10229 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:59  [ NioProcessor-3:10259 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 12
+2014-09-11 16:59:59  [ NioProcessor-4:10475 ] - [ INFO ]  the session is created !
+2014-09-11 16:59:59  [ NioProcessor-4:10475 ] - [ INFO ]  the session is opened !
+2014-09-11 16:59:59  [ NioProcessor-4:10475 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 13
+2014-09-11 17:00:28  [ NioProcessor-5:39126 ] - [ INFO ]  the session is created !
+2014-09-11 17:00:28  [ NioProcessor-5:39126 ] - [ INFO ]  the session is opened !
+2014-09-11 17:00:28  [ NioProcessor-5:39126 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 14
+2014-09-11 17:00:40  [ NioProcessor-1:50802 ] - [ INFO ]  the session is created !
+2014-09-11 17:00:40  [ NioProcessor-1:50802 ] - [ INFO ]  the session is opened !
+2014-09-11 17:00:40  [ NioProcessor-1:50822 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 15
+2014-09-11 17:02:24  [ NioProcessor-2:154918 ] - [ INFO ]  the session is created !
+2014-09-11 17:02:24  [ NioProcessor-2:154919 ] - [ INFO ]  the session is opened !
+2014-09-11 17:02:24  [ NioProcessor-2:154920 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 16
+2014-09-11 17:02:27  [ NioProcessor-3:158410 ] - [ INFO ]  the session is created !
+2014-09-11 17:02:27  [ NioProcessor-3:158411 ] - [ INFO ]  the session is opened !
+2014-09-11 17:02:27  [ NioProcessor-3:158446 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 17
+2014-09-11 17:02:29  [ NioProcessor-3:159873 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-5:159873 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-2:159873 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-4:159873 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-3:159910 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-2:159910 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-1:159910 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-4:159910 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-5:159916 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-1:159917 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-3:159916 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-2:159917 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-4:159949 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-3:159949 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-5:159949 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-1:159950 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:29  [ NioProcessor-2:159950 ] - [ INFO ]  the session is closed !
+2014-09-11 17:02:39  [ NioProcessor-4:170367 ] - [ INFO ]  the session is created !
+2014-09-11 17:02:39  [ NioProcessor-4:170368 ] - [ INFO ]  the session is opened !
+2014-09-11 17:02:39  [ NioProcessor-4:170374 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 18
+2014-09-11 17:02:45  [ NioProcessor-5:176407 ] - [ INFO ]  the session is created !
+2014-09-11 17:02:45  [ NioProcessor-5:176408 ] - [ INFO ]  the session is opened !
+2014-09-11 17:02:45  [ NioProcessor-5:176409 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 19
+2014-09-11 17:02:53  [ NioProcessor-1:184695 ] - [ INFO ]  the session is created !
+2014-09-11 17:02:53  [ NioProcessor-1:184697 ] - [ INFO ]  the session is opened !
+2014-09-11 17:02:53  [ NioProcessor-1:184698 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 20
+2014-09-11 17:02:57  [ NioProcessor-2:188505 ] - [ INFO ]  the session is created !
+2014-09-11 17:02:57  [ NioProcessor-2:188505 ] - [ INFO ]  the session is opened !
+2014-09-11 17:02:57  [ NioProcessor-2:188505 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 21
+2014-09-11 17:03:01  [ NioProcessor-3:191924 ] - [ INFO ]  the session is created !
+2014-09-11 17:03:01  [ NioProcessor-3:191924 ] - [ INFO ]  the session is opened !
+2014-09-11 17:03:01  [ NioProcessor-3:191925 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 22
+2014-09-11 17:04:16  [ NioProcessor-4:266845 ] - [ INFO ]  the session is created !
+2014-09-11 17:04:16  [ NioProcessor-4:266846 ] - [ INFO ]  the session is opened !
+2014-09-11 17:04:16  [ NioProcessor-4:266847 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 23
+2014-09-11 17:06:26  [ NioProcessor-5:397053 ] - [ INFO ]  the session is created !
+2014-09-11 17:06:26  [ NioProcessor-5:397054 ] - [ INFO ]  the session is opened !
+2014-09-11 17:06:26  [ NioProcessor-5:397055 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 24
+2014-09-11 17:07:21  [ NioProcessor-1:452042 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:21  [ NioProcessor-1:452043 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:21  [ NioProcessor-1:452044 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 25
+2014-09-11 17:07:22  [ NioProcessor-2:453157 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:22  [ NioProcessor-2:453158 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:22  [ NioProcessor-2:453177 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 26
+2014-09-11 17:07:23  [ NioProcessor-3:454024 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:23  [ NioProcessor-3:454024 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:23  [ NioProcessor-3:454025 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 27
+2014-09-11 17:07:23  [ NioProcessor-4:454789 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:23  [ NioProcessor-4:454790 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:23  [ NioProcessor-4:454791 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 28
+2014-09-11 17:07:24  [ NioProcessor-5:455254 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:24  [ NioProcessor-5:455255 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:24  [ NioProcessor-5:455255 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 29
+2014-09-11 17:07:24  [ NioProcessor-1:455474 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:24  [ NioProcessor-1:455475 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:24  [ NioProcessor-1:455475 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 30
+2014-09-11 17:07:24  [ NioProcessor-2:455618 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:24  [ NioProcessor-2:455643 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:24  [ NioProcessor-2:455644 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 31
+2014-09-11 17:07:25  [ NioProcessor-3:455838 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:25  [ NioProcessor-3:455838 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:25  [ NioProcessor-3:455839 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 32
+2014-09-11 17:07:25  [ NioProcessor-4:456013 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:25  [ NioProcessor-4:456014 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:25  [ NioProcessor-4:456015 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 33
+2014-09-11 17:07:25  [ NioProcessor-5:456496 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:25  [ NioProcessor-5:456497 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:25  [ NioProcessor-5:456497 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 34
+2014-09-11 17:07:25  [ NioProcessor-1:456671 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:25  [ NioProcessor-1:456672 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:25  [ NioProcessor-1:456672 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 35
+2014-09-11 17:07:25  [ NioProcessor-2:456770 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:25  [ NioProcessor-2:456771 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:25  [ NioProcessor-2:456772 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 36
+2014-09-11 17:07:26  [ NioProcessor-3:457019 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:26  [ NioProcessor-3:457020 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:26  [ NioProcessor-3:457021 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 37
+2014-09-11 17:07:26  [ NioProcessor-4:457148 ] - [ INFO ]  the session is created !
+2014-09-11 17:07:26  [ NioProcessor-4:457149 ] - [ INFO ]  the session is opened !
+2014-09-11 17:07:26  [ NioProcessor-4:457150 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 38
+2014-09-11 17:23:32  [ NioProcessor-5:1423001 ] - [ INFO ]  the session is created !
+2014-09-11 17:23:32  [ NioProcessor-5:1423001 ] - [ INFO ]  the session is opened !
+2014-09-11 17:23:32  [ NioProcessor-5:1423016 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 39
+2014-09-11 17:24:06  [ NioProcessor-1:1457654 ] - [ INFO ]  the session is created !
+2014-09-11 17:24:06  [ NioProcessor-1:1457654 ] - [ INFO ]  the session is opened !
+2014-09-11 17:24:06  [ NioProcessor-1:1457654 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 40
+2014-09-11 17:24:31  [ NioProcessor-2:1482088 ] - [ INFO ]  the session is created !
+2014-09-11 17:24:31  [ NioProcessor-2:1482104 ] - [ INFO ]  the session is opened !
+2014-09-11 17:24:31  [ NioProcessor-2:1482104 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 41
+2014-09-11 17:24:41  [ NioProcessor-3:1492511 ] - [ INFO ]  the session is created !
+2014-09-11 17:24:41  [ NioProcessor-3:1492511 ] - [ INFO ]  the session is opened !
+2014-09-11 17:24:41  [ NioProcessor-3:1492511 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 42
+2014-09-11 17:24:44  [ NioProcessor-4:1495679 ] - [ INFO ]  the session is created !
+2014-09-11 17:24:44  [ NioProcessor-4:1495679 ] - [ INFO ]  the session is opened !
+2014-09-11 17:24:44  [ NioProcessor-4:1495679 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 43
+2014-09-11 17:24:53  [ NioProcessor-5:1504540 ] - [ INFO ]  the session is created !
+2014-09-11 17:24:53  [ NioProcessor-5:1504540 ] - [ INFO ]  the session is opened !
+2014-09-11 17:24:53  [ NioProcessor-5:1504540 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 44
+2014-09-11 17:25:03  [ NioProcessor-1:1513857 ] - [ INFO ]  the session is created !
+2014-09-11 17:25:03  [ NioProcessor-1:1513857 ] - [ INFO ]  the session is opened !
+2014-09-11 17:25:03  [ NioProcessor-1:1513857 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 45
+2014-09-11 17:25:19  [ NioProcessor-2:1529988 ] - [ INFO ]  the session is created !
+2014-09-11 17:25:19  [ NioProcessor-2:1529988 ] - [ INFO ]  the session is opened !
+2014-09-11 17:25:19  [ NioProcessor-2:1529988 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 46
+2014-09-11 17:25:51  [ main:0 ] - [ INFO ]  server start success the port is 6602
+2014-09-11 17:25:53  [ NioProcessor-2:1826 ] - [ INFO ]  the session is created !
+2014-09-11 17:25:53  [ NioProcessor-2:1826 ] - [ INFO ]  the session is opened !
+2014-09-11 17:25:53  [ NioProcessor-2:1826 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-11 17:26:24  [ NioProcessor-2:32640 ] - [ INFO ]  the session is closed !
+2014-09-11 17:27:42  [ NioProcessor-3:110942 ] - [ INFO ]  the session is created !
+2014-09-11 17:27:42  [ NioProcessor-3:110944 ] - [ INFO ]  the session is opened !
+2014-09-11 17:27:42  [ NioProcessor-3:110945 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-11 17:27:46  [ NioProcessor-4:114329 ] - [ INFO ]  the session is created !
+2014-09-11 17:27:46  [ NioProcessor-4:114330 ] - [ INFO ]  the session is opened !
+2014-09-11 17:27:46  [ NioProcessor-4:114331 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-11 17:27:58  [ NioProcessor-5:126413 ] - [ INFO ]  the session is created !
+2014-09-11 17:27:58  [ NioProcessor-5:126413 ] - [ INFO ]  the session is opened !
+2014-09-11 17:27:58  [ NioProcessor-5:126444 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 4
+2014-09-11 17:28:54  [ NioProcessor-1:182830 ] - [ INFO ]  the session is created !
+2014-09-11 17:28:54  [ NioProcessor-1:182831 ] - [ INFO ]  the session is opened !
+2014-09-11 17:28:54  [ NioProcessor-1:182839 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-11 17:29:11  [ main:0 ] - [ INFO ]  server start success the port is 6602
+2014-09-11 17:29:29  [ NioProcessor-2:18311 ] - [ INFO ]  the session is created !
+2014-09-11 17:29:29  [ NioProcessor-2:18313 ] - [ INFO ]  the session is opened !
+2014-09-11 17:29:29  [ NioProcessor-2:18318 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-11 17:29:38  [ NioProcessor-3:26830 ] - [ INFO ]  the session is created !
+2014-09-11 17:29:38  [ NioProcessor-3:26856 ] - [ INFO ]  the session is opened !
+2014-09-11 17:29:38  [ NioProcessor-3:26857 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-11 17:29:46  [ NioProcessor-4:35031 ] - [ INFO ]  the session is created !
+2014-09-11 17:29:46  [ NioProcessor-4:35031 ] - [ INFO ]  the session is opened !
+2014-09-11 17:29:46  [ NioProcessor-4:35031 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-11 17:29:57  [ NioProcessor-5:46072 ] - [ INFO ]  the session is created !
+2014-09-11 17:29:57  [ NioProcessor-5:46074 ] - [ INFO ]  the session is opened !
+2014-09-11 17:29:57  [ NioProcessor-5:46077 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 4
+2014-09-11 17:30:12  [ NioProcessor-1:61529 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:12  [ NioProcessor-1:61530 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:12  [ NioProcessor-1:61533 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-11 17:30:23  [ NioProcessor-2:72536 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:23  [ NioProcessor-2:72537 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:23  [ NioProcessor-2:72538 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 6
+2014-09-11 17:30:28  [ NioProcessor-3:77761 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:28  [ NioProcessor-3:77762 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:28  [ NioProcessor-3:77776 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 7
+2014-09-11 17:30:31  [ NioProcessor-4:79805 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:31  [ NioProcessor-4:79805 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:31  [ NioProcessor-4:79806 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 8
+2014-09-11 17:30:31  [ NioProcessor-5:80652 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:31  [ NioProcessor-5:80653 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:31  [ NioProcessor-5:80654 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 9
+2014-09-11 17:30:32  [ NioProcessor-1:81411 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:32  [ NioProcessor-1:81412 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:32  [ NioProcessor-1:81417 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 10
+2014-09-11 17:30:33  [ NioProcessor-2:82107 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:33  [ NioProcessor-2:82107 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:33  [ NioProcessor-2:82112 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 11
+2014-09-11 17:30:34  [ NioProcessor-3:82868 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:34  [ NioProcessor-3:82869 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:34  [ NioProcessor-3:82870 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 12
+2014-09-11 17:30:34  [ NioProcessor-4:83462 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:34  [ NioProcessor-4:83463 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:34  [ NioProcessor-4:83464 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 13
+2014-09-11 17:30:35  [ NioProcessor-5:83819 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:35  [ NioProcessor-5:83819 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:35  [ NioProcessor-5:83820 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 14
+2014-09-11 17:30:35  [ NioProcessor-1:84042 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:35  [ NioProcessor-1:84043 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:35  [ NioProcessor-1:84043 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 15
+2014-09-11 17:30:35  [ NioProcessor-2:84195 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:35  [ NioProcessor-2:84196 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:35  [ NioProcessor-2:84232 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 16
+2014-09-11 17:30:35  [ NioProcessor-3:84472 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:35  [ NioProcessor-3:84472 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:35  [ NioProcessor-3:84475 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 17
+2014-09-11 17:30:35  [ NioProcessor-4:84796 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:35  [ NioProcessor-4:84796 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:35  [ NioProcessor-4:84796 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 18
+2014-09-11 17:30:36  [ NioProcessor-5:85084 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:36  [ NioProcessor-5:85084 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:36  [ NioProcessor-5:85100 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 19
+2014-09-11 17:30:36  [ NioProcessor-1:85272 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:36  [ NioProcessor-1:85273 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:36  [ NioProcessor-1:85279 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 20
+2014-09-11 17:30:36  [ NioProcessor-2:85501 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:36  [ NioProcessor-2:85502 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:36  [ NioProcessor-2:85502 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 21
+2014-09-11 17:30:36  [ NioProcessor-3:85781 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:36  [ NioProcessor-3:85781 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:36  [ NioProcessor-3:85782 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 22
+2014-09-11 17:30:37  [ NioProcessor-4:85952 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:37  [ NioProcessor-4:85953 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:37  [ NioProcessor-4:85960 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 23
+2014-09-11 17:30:37  [ NioProcessor-5:86183 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:37  [ NioProcessor-5:86183 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:37  [ NioProcessor-5:86183 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 24
+2014-09-11 17:30:38  [ NioProcessor-1:86855 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:38  [ NioProcessor-1:86856 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:38  [ NioProcessor-1:86857 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 25
+2014-09-11 17:30:38  [ NioProcessor-2:87217 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:38  [ NioProcessor-2:87218 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:38  [ NioProcessor-2:87219 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 26
+2014-09-11 17:30:38  [ NioProcessor-3:87276 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:38  [ NioProcessor-3:87276 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:38  [ NioProcessor-3:87276 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 27
+2014-09-11 17:30:38  [ NioProcessor-4:87354 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:38  [ NioProcessor-4:87354 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:38  [ NioProcessor-4:87355 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 28
+2014-09-11 17:30:38  [ NioProcessor-5:87425 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:38  [ NioProcessor-5:87425 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:38  [ NioProcessor-5:87425 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 29
+2014-09-11 17:30:38  [ NioProcessor-1:87742 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:38  [ NioProcessor-1:87743 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:38  [ NioProcessor-1:87755 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 30
+2014-09-11 17:30:39  [ NioProcessor-2:87919 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:39  [ NioProcessor-2:87919 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:39  [ NioProcessor-2:87928 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 31
+2014-09-11 17:30:39  [ NioProcessor-3:88139 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:39  [ NioProcessor-3:88139 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:39  [ NioProcessor-3:88140 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 32
+2014-09-11 17:30:39  [ NioProcessor-4:88499 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:39  [ NioProcessor-4:88499 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:39  [ NioProcessor-4:88500 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 33
+2014-09-11 17:30:40  [ NioProcessor-5:88820 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:40  [ NioProcessor-5:88821 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:40  [ NioProcessor-5:88827 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 34
+2014-09-11 17:30:40  [ NioProcessor-1:89021 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:40  [ NioProcessor-1:89021 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:40  [ NioProcessor-1:89037 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 35
+2014-09-11 17:30:40  [ NioProcessor-2:89229 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:40  [ NioProcessor-2:89229 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:40  [ NioProcessor-2:89230 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 36
+2014-09-11 17:30:40  [ NioProcessor-3:89723 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:40  [ NioProcessor-3:89723 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:40  [ NioProcessor-3:89724 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 37
+2014-09-11 17:30:41  [ NioProcessor-4:90086 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:41  [ NioProcessor-4:90087 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:41  [ NioProcessor-4:90088 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 38
+2014-09-11 17:30:41  [ NioProcessor-5:90319 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:41  [ NioProcessor-5:90320 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:41  [ NioProcessor-5:90321 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 39
+2014-09-11 17:30:41  [ NioProcessor-1:90623 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:41  [ NioProcessor-1:90623 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:41  [ NioProcessor-1:90633 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 40
+2014-09-11 17:30:41  [ NioProcessor-2:90791 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:41  [ NioProcessor-2:90792 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:41  [ NioProcessor-2:90793 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 41
+2014-09-11 17:30:42  [ NioProcessor-2:91121 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-3:91121 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-4:91122 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-2:91134 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-1:91134 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-5:91134 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-5:91235 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-4:91235 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-2:91236 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-3:91235 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-1:91236 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-3:91237 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-5:91276 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-4:91277 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-4:91278 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-1:91279 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-3:91279 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-2:91280 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-5:91411 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-3:91441 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-4:91442 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-2:91441 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-5:91441 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-2:91629 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-1:91632 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-3:91634 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-4:91636 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:42  [ NioProcessor-5:91707 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-1:91843 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-1:91847 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-3:91850 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-4:91851 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-2:91853 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-5:91859 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-2:91900 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-3:91900 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-2:91901 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-5:91901 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-1:91901 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-4:91901 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:43  [ NioProcessor-1:92167 ] - [ INFO ]  the session is closed !
+2014-09-11 17:30:53  [ NioProcessor-3:101891 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:53  [ NioProcessor-3:101892 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:53  [ NioProcessor-3:101922 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 42
+2014-09-11 17:30:54  [ NioProcessor-4:103346 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:54  [ NioProcessor-4:103347 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:54  [ NioProcessor-4:103374 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 43
+2014-09-11 17:30:55  [ NioProcessor-5:104276 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:55  [ NioProcessor-5:104277 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:55  [ NioProcessor-5:104279 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 44
+2014-09-11 17:30:56  [ NioProcessor-1:105260 ] - [ INFO ]  the session is created !
+2014-09-11 17:30:56  [ NioProcessor-1:105261 ] - [ INFO ]  the session is opened !
+2014-09-11 17:30:56  [ NioProcessor-1:105262 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 45
+2014-09-11 17:31:03  [ NioProcessor-2:111809 ] - [ INFO ]  the session is created !
+2014-09-11 17:31:03  [ NioProcessor-2:111810 ] - [ INFO ]  the session is opened !
+2014-09-11 17:31:03  [ NioProcessor-2:111811 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 46
+2014-09-11 17:31:05  [ NioProcessor-3:113857 ] - [ INFO ]  the session is created !
+2014-09-11 17:31:05  [ NioProcessor-3:113858 ] - [ INFO ]  the session is opened !
+2014-09-11 17:31:05  [ NioProcessor-3:113867 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 47
+2014-09-11 17:31:05  [ NioProcessor-4:114698 ] - [ INFO ]  the session is created !
+2014-09-11 17:31:05  [ NioProcessor-4:114699 ] - [ INFO ]  the session is opened !
+2014-09-11 17:31:05  [ NioProcessor-4:114699 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 48
+2014-09-11 17:31:06  [ NioProcessor-5:115472 ] - [ INFO ]  the session is created !
+2014-09-11 17:31:06  [ NioProcessor-5:115472 ] - [ INFO ]  the session is opened !
+2014-09-11 17:31:06  [ NioProcessor-5:115490 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 49
+2014-09-11 17:31:07  [ NioProcessor-1:116087 ] - [ INFO ]  the session is created !
+2014-09-11 17:31:07  [ NioProcessor-1:116087 ] - [ INFO ]  the session is opened !
+2014-09-11 17:31:07  [ NioProcessor-1:116093 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 50
+2014-09-11 17:31:08  [ NioProcessor-2:116864 ] - [ INFO ]  the session is created !
+2014-09-11 17:31:08  [ NioProcessor-2:116865 ] - [ INFO ]  the session is opened !
+2014-09-11 17:31:08  [ NioProcessor-2:116866 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 51
+2014-09-11 17:31:08  [ NioProcessor-3:117278 ] - [ INFO ]  the session is created !
+2014-09-11 17:31:08  [ NioProcessor-3:117278 ] - [ INFO ]  the session is opened !
+2014-09-11 17:31:08  [ NioProcessor-3:117295 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 52
+2014-09-11 17:31:08  [ NioProcessor-4:117351 ] - [ INFO ]  the session is created !
+2014-09-11 17:31:08  [ NioProcessor-4:117351 ] - [ INFO ]  the session is opened !
+2014-09-11 17:31:08  [ NioProcessor-4:117351 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 53
+2014-09-11 17:31:09  [ NioProcessor-3:117890 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-4:117891 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-5:117892 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-2:117893 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-3:117891 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-1:117893 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-4:117914 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-2:117914 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-4:117914 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-3:117914 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-1:117914 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:09  [ NioProcessor-5:117914 ] - [ INFO ]  the session is closed !
+2014-09-11 17:31:12  [ NioProcessor-5:121337 ] - [ INFO ]  the session is created !
+2014-09-11 17:31:12  [ NioProcessor-5:121337 ] - [ INFO ]  the session is opened !
+2014-09-11 17:31:12  [ NioProcessor-5:121365 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 54
+2014-09-11 17:32:08  [ NioProcessor-1:177229 ] - [ INFO ]  the session is created !
+2014-09-11 17:32:08  [ NioProcessor-1:177229 ] - [ INFO ]  the session is opened !
+2014-09-11 17:32:08  [ NioProcessor-1:177229 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 55
+2014-09-11 17:32:14  [ NioProcessor-2:182999 ] - [ INFO ]  the session is created !
+2014-09-11 17:32:14  [ NioProcessor-2:183001 ] - [ INFO ]  the session is opened !
+2014-09-11 17:32:14  [ NioProcessor-2:183012 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 56
+2014-09-11 17:32:18  [ NioProcessor-3:186865 ] - [ INFO ]  the session is created !
+2014-09-11 17:32:18  [ NioProcessor-3:186867 ] - [ INFO ]  the session is opened !
+2014-09-11 17:32:18  [ NioProcessor-3:186868 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 57
+2014-09-11 17:32:49  [ NioProcessor-1:217996 ] - [ INFO ]  the session is closed !
+2014-09-11 17:32:49  [ NioProcessor-3:217997 ] - [ INFO ]  the session is closed !
+2014-09-11 17:32:49  [ NioProcessor-5:217996 ] - [ INFO ]  the session is closed !
+2014-09-11 17:32:49  [ NioProcessor-2:217998 ] - [ INFO ]  the session is closed !
+2014-09-11 17:42:31  [ NioProcessor-4:800490 ] - [ INFO ]  the session is created !
+2014-09-11 17:42:31  [ NioProcessor-4:800491 ] - [ INFO ]  the session is opened !
+2014-09-11 17:42:31  [ NioProcessor-4:800494 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 58
+2014-09-11 17:42:39  [ NioProcessor-5:808125 ] - [ INFO ]  the session is created !
+2014-09-11 17:42:39  [ NioProcessor-5:808126 ] - [ INFO ]  the session is opened !
+2014-09-11 17:42:39  [ NioProcessor-5:808129 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 59
+2014-09-11 17:42:41  [ NioProcessor-1:810582 ] - [ INFO ]  the session is created !
+2014-09-11 17:42:41  [ NioProcessor-1:810583 ] - [ INFO ]  the session is opened !
+2014-09-11 17:42:41  [ NioProcessor-1:810585 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 60
+2014-09-11 17:42:43  [ NioProcessor-2:811866 ] - [ INFO ]  the session is created !
+2014-09-11 17:42:43  [ NioProcessor-2:811867 ] - [ INFO ]  the session is opened !
+2014-09-11 17:42:43  [ NioProcessor-2:811869 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 61
+2014-09-11 17:42:44  [ NioProcessor-3:812830 ] - [ INFO ]  the session is created !
+2014-09-11 17:42:44  [ NioProcessor-3:812831 ] - [ INFO ]  the session is opened !
+2014-09-11 17:42:44  [ NioProcessor-3:812832 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 62
+2014-09-11 17:42:44  [ NioProcessor-4:813537 ] - [ INFO ]  the session is created !
+2014-09-11 17:42:44  [ NioProcessor-4:813538 ] - [ INFO ]  the session is opened !
+2014-09-11 17:42:44  [ NioProcessor-4:813541 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 63
+2014-09-11 17:42:46  [ NioProcessor-5:814802 ] - [ INFO ]  the session is created !
+2014-09-11 17:42:46  [ NioProcessor-5:814803 ] - [ INFO ]  the session is opened !
+2014-09-11 17:42:46  [ NioProcessor-5:814804 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 64
+2014-09-11 17:43:12  [ NioProcessor-1:841661 ] - [ INFO ]  the session is created !
+2014-09-11 17:43:12  [ NioProcessor-1:841662 ] - [ INFO ]  the session is opened !
+2014-09-11 17:43:12  [ NioProcessor-1:841673 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 65
+2014-09-11 18:00:20  [ NioProcessor-2:1869601 ] - [ INFO ]  the session is created !
+2014-09-11 18:00:20  [ NioProcessor-2:1869603 ] - [ INFO ]  the session is opened !
+2014-09-11 18:00:20  [ NioProcessor-2:1869604 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 66
+2014-09-11 18:21:18  [ NioProcessor-3:3127503 ] - [ INFO ]  the session is created !
+2014-09-11 18:21:18  [ NioProcessor-3:3127505 ] - [ INFO ]  the session is opened !
+2014-09-11 18:21:18  [ NioProcessor-3:3127507 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 67
+2014-09-11 18:21:58  [ NioProcessor-4:3167600 ] - [ INFO ]  the session is created !
+2014-09-11 18:21:58  [ NioProcessor-4:3167601 ] - [ INFO ]  the session is opened !
+2014-09-11 18:21:58  [ NioProcessor-4:3167680 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 68
+2014-09-11 18:22:07  [ NioProcessor-5:3176592 ] - [ INFO ]  the session is created !
+2014-09-11 18:22:07  [ NioProcessor-5:3176593 ] - [ INFO ]  the session is opened !
+2014-09-11 18:22:07  [ NioProcessor-5:3176594 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 69
+2014-09-11 18:22:10  [ NioProcessor-1:3179494 ] - [ INFO ]  the session is created !
+2014-09-11 18:22:10  [ NioProcessor-1:3179495 ] - [ INFO ]  the session is opened !
+2014-09-11 18:22:10  [ NioProcessor-1:3179496 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 70
+2014-09-11 18:23:23  [ NioProcessor-2:3251946 ] - [ INFO ]  the session is created !
+2014-09-11 18:23:23  [ NioProcessor-2:3251947 ] - [ INFO ]  the session is opened !
+2014-09-11 18:23:23  [ NioProcessor-2:3251947 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 71
+2014-09-11 18:23:25  [ NioProcessor-3:3254664 ] - [ INFO ]  the session is created !
+2014-09-11 18:23:25  [ NioProcessor-3:3254665 ] - [ INFO ]  the session is opened !
+2014-09-11 18:23:25  [ NioProcessor-3:3254665 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 72
+2014-09-11 18:23:55  [ NioProcessor-4:3283961 ] - [ INFO ]  the session is created !
+2014-09-11 18:23:55  [ NioProcessor-4:3283962 ] - [ INFO ]  the session is opened !
+2014-09-11 18:23:55  [ NioProcessor-4:3283962 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 73
+2014-09-11 18:24:03  [ NioProcessor-5:3292180 ] - [ INFO ]  the session is created !
+2014-09-11 18:24:03  [ NioProcessor-5:3292181 ] - [ INFO ]  the session is opened !
+2014-09-11 18:24:03  [ NioProcessor-5:3292181 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 74
+2014-09-11 18:24:10  [ NioProcessor-1:3299137 ] - [ INFO ]  the session is created !
+2014-09-11 18:24:10  [ NioProcessor-1:3299138 ] - [ INFO ]  the session is opened !
+2014-09-11 18:24:10  [ NioProcessor-1:3299139 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 75
+2014-09-11 18:24:12  [ NioProcessor-2:3300863 ] - [ INFO ]  the session is created !
+2014-09-11 18:24:12  [ NioProcessor-2:3300864 ] - [ INFO ]  the session is opened !
+2014-09-11 18:24:12  [ NioProcessor-2:3300873 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 76
+2014-09-11 18:24:19  [ NioProcessor-3:3308675 ] - [ INFO ]  the session is created !
+2014-09-11 18:24:19  [ NioProcessor-3:3308676 ] - [ INFO ]  the session is opened !
+2014-09-11 18:24:19  [ NioProcessor-3:3308677 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 77
+2014-09-11 18:24:23  [ NioProcessor-4:3312030 ] - [ INFO ]  the session is created !
+2014-09-11 18:24:23  [ NioProcessor-4:3312031 ] - [ INFO ]  the session is opened !
+2014-09-11 18:24:23  [ NioProcessor-4:3312032 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 78
+2014-09-11 18:24:24  [ NioProcessor-5:3312985 ] - [ INFO ]  the session is created !
+2014-09-11 18:24:24  [ NioProcessor-5:3312986 ] - [ INFO ]  the session is opened !
+2014-09-11 18:24:24  [ NioProcessor-5:3312987 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 79
+2014-09-11 18:24:28  [ NioProcessor-1:3317142 ] - [ INFO ]  the session is created !
+2014-09-11 18:24:28  [ NioProcessor-1:3317144 ] - [ INFO ]  the session is opened !
+2014-09-11 18:24:28  [ NioProcessor-1:3317144 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 80
+2014-09-11 18:25:00  [ NioProcessor-2:3349388 ] - [ INFO ]  the session is created !
+2014-09-11 18:25:00  [ NioProcessor-2:3349388 ] - [ INFO ]  the session is opened !
+2014-09-11 18:25:00  [ NioProcessor-2:3349423 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 81
+2014-09-11 18:25:05  [ NioProcessor-3:3354220 ] - [ INFO ]  the session is created !
+2014-09-11 18:25:05  [ NioProcessor-3:3354221 ] - [ INFO ]  the session is opened !
+2014-09-11 18:25:05  [ NioProcessor-3:3354223 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 82
+2014-09-11 18:25:10  [ NioProcessor-4:3359740 ] - [ INFO ]  the session is created !
+2014-09-11 18:25:10  [ NioProcessor-4:3359741 ] - [ INFO ]  the session is opened !
+2014-09-11 18:25:10  [ NioProcessor-4:3359743 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 83
+2014-09-11 18:25:24  [ NioProcessor-5:3373600 ] - [ INFO ]  the session is created !
+2014-09-11 18:25:24  [ NioProcessor-5:3373601 ] - [ INFO ]  the session is opened !
+2014-09-11 18:25:24  [ NioProcessor-5:3373613 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 84
+2014-09-11 18:25:32  [ NioProcessor-1:3381570 ] - [ INFO ]  the session is created !
+2014-09-11 18:25:32  [ NioProcessor-1:3381570 ] - [ INFO ]  the session is opened !
+2014-09-11 18:25:32  [ NioProcessor-1:3381570 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 85
+2014-09-11 18:27:59  [ NioProcessor-2:3528787 ] - [ INFO ]  the session is created !
+2014-09-11 18:27:59  [ NioProcessor-2:3528787 ] - [ INFO ]  the session is opened !
+2014-09-11 18:28:00  [ NioProcessor-2:3528805 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 86
+2014-09-11 18:28:01  [ NioProcessor-3:3530757 ] - [ INFO ]  the session is created !
+2014-09-11 18:28:01  [ NioProcessor-3:3530757 ] - [ INFO ]  the session is opened !
+2014-09-11 18:28:01  [ NioProcessor-3:3530757 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 87
+2014-09-11 18:28:05  [ NioProcessor-4:3534115 ] - [ INFO ]  the session is created !
+2014-09-11 18:28:05  [ NioProcessor-4:3534115 ] - [ INFO ]  the session is opened !
+2014-09-11 18:28:05  [ NioProcessor-4:3534116 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 88
+2014-09-11 18:28:12  [ NioProcessor-5:3541625 ] - [ INFO ]  the session is created !
+2014-09-11 18:28:12  [ NioProcessor-5:3541626 ] - [ INFO ]  the session is opened !
+2014-09-11 18:28:12  [ NioProcessor-5:3541634 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 89
+2014-09-11 18:28:14  [ NioProcessor-1:3543660 ] - [ INFO ]  the session is created !
+2014-09-11 18:28:14  [ NioProcessor-1:3543661 ] - [ INFO ]  the session is opened !
+2014-09-11 18:28:14  [ NioProcessor-1:3543661 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 90
+2014-09-11 18:28:16  [ NioProcessor-2:3545199 ] - [ INFO ]  the session is created !
+2014-09-11 18:28:16  [ NioProcessor-2:3545200 ] - [ INFO ]  the session is opened !
+2014-09-11 18:28:16  [ NioProcessor-2:3545208 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 91
+2014-09-11 18:28:17  [ NioProcessor-3:3546041 ] - [ INFO ]  the session is created !
+2014-09-11 18:28:17  [ NioProcessor-3:3546042 ] - [ INFO ]  the session is opened !
+2014-09-11 18:28:17  [ NioProcessor-3:3546053 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 92
+2014-09-11 18:28:17  [ NioProcessor-4:3546692 ] - [ INFO ]  the session is created !
+2014-09-11 18:28:17  [ NioProcessor-4:3546693 ] - [ INFO ]  the session is opened !
+2014-09-11 18:28:17  [ NioProcessor-4:3546726 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 93
+2014-09-11 18:28:18  [ NioProcessor-5:3547017 ] - [ INFO ]  the session is created !
+2014-09-11 18:28:18  [ NioProcessor-5:3547018 ] - [ INFO ]  the session is opened !
+2014-09-11 18:28:18  [ NioProcessor-5:3547018 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 94
+2014-09-11 18:28:18  [ NioProcessor-1:3547266 ] - [ INFO ]  the session is created !
+2014-09-11 18:28:18  [ NioProcessor-1:3547267 ] - [ INFO ]  the session is opened !
+2014-09-11 18:28:18  [ NioProcessor-1:3547268 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 95
+2014-09-11 18:30:44  [ NioProcessor-4:3693039 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-1:3693053 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-2:3693055 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-4:3693056 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-5:3693054 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-3:3693055 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-3:3693067 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-2:3693067 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-4:3693071 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-1:3693072 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-2:3693073 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-5:3693071 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-1:3693073 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-3:3693072 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-5:3693073 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-5:3693148 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-1:3693149 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-2:3693150 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-4:3693148 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-3:3693165 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-5:3693165 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-4:3693166 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-1:3693167 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-3:3693250 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-5:3693251 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-2:3693250 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-4:3693251 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-3:3693289 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-2:3693290 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-1:3693289 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-4:3693290 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-5:3693300 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-2:3693301 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-3:3693301 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-1:3693300 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-5:3693311 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-1:3693312 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:44  [ NioProcessor-4:3693311 ] - [ INFO ]  the session is closed !
+2014-09-11 18:30:48  [ NioProcessor-2:3696826 ] - [ INFO ]  the session is created !
+2014-09-11 18:30:48  [ NioProcessor-2:3696826 ] - [ INFO ]  the session is opened !
+2014-09-11 18:30:48  [ NioProcessor-2:3696827 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 96
+2014-09-11 18:30:53  [ NioProcessor-3:3702490 ] - [ INFO ]  the session is created !
+2014-09-11 18:30:53  [ NioProcessor-3:3702490 ] - [ INFO ]  the session is opened !
+2014-09-11 18:30:53  [ NioProcessor-3:3702548 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 97
+2014-09-11 18:31:02  [ NioProcessor-4:3711757 ] - [ INFO ]  the session is created !
+2014-09-11 18:31:02  [ NioProcessor-4:3711757 ] - [ INFO ]  the session is opened !
+2014-09-11 18:31:02  [ NioProcessor-4:3711779 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 98
+2014-09-11 18:31:20  [ NioProcessor-2:3728907 ] - [ INFO ]  the session is closed !
+2014-09-11 18:31:20  [ NioProcessor-4:3728907 ] - [ INFO ]  the session is closed !
+2014-09-11 18:31:20  [ NioProcessor-3:3728907 ] - [ INFO ]  the session is closed !
+2014-09-11 18:31:25  [ NioProcessor-5:3734509 ] - [ INFO ]  the session is created !
+2014-09-11 18:31:25  [ NioProcessor-5:3734509 ] - [ INFO ]  the session is opened !
+2014-09-11 18:31:25  [ NioProcessor-5:3734524 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 99
+2014-09-11 18:32:15  [ NioProcessor-1:3784299 ] - [ INFO ]  the session is created !
+2014-09-11 18:32:15  [ NioProcessor-1:3784300 ] - [ INFO ]  the session is opened !
+2014-09-11 18:32:15  [ NioProcessor-1:3784342 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 100
+2014-09-11 18:32:48  [ NioProcessor-5:3817678 ] - [ INFO ]  the session is closed !
+2014-09-11 18:32:48  [ NioProcessor-1:3817678 ] - [ INFO ]  the session is closed !
+2014-09-11 18:33:12  [ NioProcessor-2:3841374 ] - [ INFO ]  the session is created !
+2014-09-11 18:33:12  [ NioProcessor-2:3841375 ] - [ INFO ]  the session is opened !
+2014-09-11 18:33:12  [ NioProcessor-2:3841428 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 101
+2014-09-11 18:34:27  [ NioProcessor-3:3916275 ] - [ INFO ]  the session is created !
+2014-09-11 18:34:27  [ NioProcessor-3:3916276 ] - [ INFO ]  the session is opened !
+2014-09-11 18:34:27  [ NioProcessor-3:3916304 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 102
+2014-09-11 18:34:35  [ NioProcessor-4:3924772 ] - [ INFO ]  the session is created !
+2014-09-11 18:34:35  [ NioProcessor-4:3924773 ] - [ INFO ]  the session is opened !
+2014-09-11 18:34:35  [ NioProcessor-4:3924774 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 103
+2014-09-11 18:34:40  [ NioProcessor-5:3928919 ] - [ INFO ]  the session is created !
+2014-09-11 18:34:40  [ NioProcessor-5:3928919 ] - [ INFO ]  the session is opened !
+2014-09-11 18:34:40  [ NioProcessor-5:3928919 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 104
+2014-09-11 18:34:44  [ NioProcessor-1:3932977 ] - [ INFO ]  the session is created !
+2014-09-11 18:34:44  [ NioProcessor-1:3932977 ] - [ INFO ]  the session is opened !
+2014-09-11 18:34:44  [ NioProcessor-1:3932977 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 105
+2014-09-11 18:34:45  [ NioProcessor-2:3934350 ] - [ INFO ]  the session is created !
+2014-09-11 18:34:45  [ NioProcessor-2:3934350 ] - [ INFO ]  the session is opened !
+2014-09-11 18:34:45  [ NioProcessor-2:3934351 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 106
+2014-09-11 18:34:50  [ NioProcessor-3:3938968 ] - [ INFO ]  the session is created !
+2014-09-11 18:34:50  [ NioProcessor-3:3938968 ] - [ INFO ]  the session is opened !
+2014-09-11 18:34:50  [ NioProcessor-3:3939017 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 107
+2014-09-11 18:35:01  [ NioProcessor-4:3950330 ] - [ INFO ]  the session is created !
+2014-09-11 18:35:01  [ NioProcessor-4:3950331 ] - [ INFO ]  the session is opened !
+2014-09-11 18:35:01  [ NioProcessor-4:3950362 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 108
+2014-09-11 18:35:07  [ NioProcessor-5:3955895 ] - [ INFO ]  the session is created !
+2014-09-11 18:35:07  [ NioProcessor-5:3955896 ] - [ INFO ]  the session is opened !
+2014-09-11 18:35:07  [ NioProcessor-5:3955902 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 109
+2014-09-11 18:35:10  [ NioProcessor-1:3959010 ] - [ INFO ]  the session is created !
+2014-09-11 18:35:10  [ NioProcessor-1:3959011 ] - [ INFO ]  the session is opened !
+2014-09-11 18:35:10  [ NioProcessor-1:3959015 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 110
+2014-09-11 18:35:12  [ NioProcessor-2:3960958 ] - [ INFO ]  the session is created !
+2014-09-11 18:35:12  [ NioProcessor-2:3960959 ] - [ INFO ]  the session is opened !
+2014-09-11 18:35:12  [ NioProcessor-2:3960971 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 111
+2014-09-11 18:35:18  [ NioProcessor-3:3967219 ] - [ INFO ]  the session is created !
+2014-09-11 18:35:18  [ NioProcessor-3:3967220 ] - [ INFO ]  the session is opened !
+2014-09-11 18:35:18  [ NioProcessor-3:3967220 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 112
+2014-09-11 18:35:23  [ NioProcessor-4:3972268 ] - [ INFO ]  the session is created !
+2014-09-11 18:35:23  [ NioProcessor-4:3972269 ] - [ INFO ]  the session is opened !
+2014-09-11 18:35:23  [ NioProcessor-4:3972310 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 113
+2014-09-11 18:35:35  [ NioProcessor-5:3984605 ] - [ INFO ]  the session is created !
+2014-09-11 18:35:35  [ NioProcessor-5:3984605 ] - [ INFO ]  the session is opened !
+2014-09-11 18:35:35  [ NioProcessor-5:3984606 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 114
+2014-09-11 18:35:46  [ NioProcessor-1:3995016 ] - [ INFO ]  the session is created !
+2014-09-11 18:35:46  [ NioProcessor-1:3995016 ] - [ INFO ]  the session is opened !
+2014-09-11 18:35:46  [ NioProcessor-1:3995051 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 115

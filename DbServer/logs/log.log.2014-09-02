@@ -1,0 +1,94 @@
+2014-09-02 14:58:02  [ main:0 ] - [ INFO ]  server start success the port is 9998
+2014-09-02 15:00:37  [ NioProcessor-2:155334 ] - [ INFO ]  the session is created !
+2014-09-02 15:00:37  [ NioProcessor-2:155335 ] - [ INFO ]  the session is opened !
+2014-09-02 15:00:37  [ NioProcessor-2:155406 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-02 15:00:37  [ NioProcessor-2:155414 ] - [ INFO ]  the session is closed !
+2014-09-02 15:01:10  [ NioProcessor-3:187893 ] - [ INFO ]  the session is created !
+2014-09-02 15:01:10  [ NioProcessor-3:187894 ] - [ INFO ]  the session is opened !
+2014-09-02 15:01:11  [ NioProcessor-3:189099 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-02 15:03:03  [ NioProcessor-4:301034 ] - [ INFO ]  the session is created !
+2014-09-02 15:03:03  [ NioProcessor-4:301034 ] - [ INFO ]  the session is opened !
+2014-09-02 15:03:03  [ NioProcessor-4:301035 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-02 15:03:10  [ NioProcessor-4:307852 ] - [ INFO ]  the session is closed !
+2014-09-02 15:03:11  [ NioProcessor-3:309063 ] - [ INFO ]  the session is closed !
+2014-09-02 15:04:04  [ main:0 ] - [ INFO ]  server start success the port is 9998
+2014-09-02 15:05:25  [ NioProcessor-2:80923 ] - [ INFO ]  the session is created !
+2014-09-02 15:05:25  [ NioProcessor-2:80925 ] - [ INFO ]  the session is opened !
+2014-09-02 15:05:25  [ NioProcessor-2:80928 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-02 15:05:25  [ NioProcessor-2:80932 ] - [ INFO ]  the session is closed !
+2014-09-02 15:06:51  [ NioProcessor-3:166972 ] - [ INFO ]  the session is created !
+2014-09-02 15:06:53  [ NioProcessor-3:169249 ] - [ INFO ]  the session is opened !
+2014-09-02 15:06:53  [ NioProcessor-3:169261 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-02 15:08:17  [ NioProcessor-3:253360 ] - [ INFO ]  the session is closed !
+2014-09-02 15:09:19  [ NioProcessor-4:315523 ] - [ INFO ]  the session is created !
+2014-09-02 15:09:20  [ NioProcessor-4:316527 ] - [ INFO ]  the session is opened !
+2014-09-02 15:09:20  [ NioProcessor-4:316530 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-02 15:09:20  [ NioProcessor-4:316532 ] - [ INFO ]  the session is closed !
+2014-09-02 15:09:58  [ NioProcessor-5:354157 ] - [ INFO ]  the session is created !
+2014-09-02 15:09:59  [ NioProcessor-5:354893 ] - [ INFO ]  the session is opened !
+2014-09-02 15:09:59  [ NioProcessor-5:354899 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-02 15:09:59  [ NioProcessor-5:354904 ] - [ INFO ]  the session is closed !
+2014-09-02 15:10:15  [ NioProcessor-1:371659 ] - [ INFO ]  the session is created !
+2014-09-02 15:10:15  [ NioProcessor-1:371660 ] - [ INFO ]  the session is opened !
+2014-09-02 15:10:15  [ NioProcessor-1:371661 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-02 15:10:15  [ NioProcessor-1:371663 ] - [ INFO ]  the session is closed !
+2014-09-02 15:10:23  [ NioProcessor-2:379260 ] - [ INFO ]  the session is created !
+2014-09-02 15:10:23  [ NioProcessor-2:379261 ] - [ INFO ]  the session is opened !
+2014-09-02 15:10:23  [ NioProcessor-2:379262 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-02 15:10:23  [ NioProcessor-2:379263 ] - [ INFO ]  the session is closed !
+2014-09-02 15:11:16  [ NioProcessor-3:432285 ] - [ INFO ]  the session is created !
+2014-09-02 15:11:16  [ NioProcessor-3:432285 ] - [ INFO ]  the session is opened !
+2014-09-02 15:11:16  [ NioProcessor-3:432373 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 7
+2014-09-02 15:12:46  [ NioProcessor-3:522378 ] - [ INFO ]  the session is closed !
+2014-09-02 15:12:46  [ NioProcessor-4:522534 ] - [ INFO ]  the session is created !
+2014-09-02 15:12:46  [ NioProcessor-4:522535 ] - [ INFO ]  the session is opened !
+2014-09-02 15:12:46  [ NioProcessor-4:522578 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 8
+2014-09-02 15:13:54  [ main:0 ] - [ INFO ]  server start success the port is 9998
+2014-09-02 15:14:08  [ NioProcessor-2:14676 ] - [ INFO ]  the session is created !
+2014-09-02 15:14:08  [ NioProcessor-2:14677 ] - [ INFO ]  the session is opened !
+2014-09-02 15:14:08  [ NioProcessor-2:14682 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-02 15:14:13  [ NioProcessor-2:18850 ] - [ INFO ]  the session is closed !
+2014-09-02 15:14:22  [ NioProcessor-3:28683 ] - [ INFO ]  the session is created !
+2014-09-02 15:14:22  [ NioProcessor-3:28687 ] - [ INFO ]  the session is opened !
+2014-09-02 15:14:22  [ NioProcessor-3:28762 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-02 15:14:23  [ NioProcessor-3:28935 ] - [ INFO ]  the session is closed !
+2014-09-02 15:14:29  [ NioProcessor-4:35574 ] - [ INFO ]  the session is created !
+2014-09-02 15:14:29  [ NioProcessor-4:35575 ] - [ INFO ]  the session is opened !
+2014-09-02 15:14:29  [ NioProcessor-4:35587 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-02 15:15:59  [ NioProcessor-4:125612 ] - [ INFO ]  the session is closed !
+2014-09-02 15:18:07  [ NioProcessor-5:253604 ] - [ INFO ]  the session is created !
+2014-09-02 15:18:07  [ NioProcessor-5:253607 ] - [ INFO ]  the session is opened !
+2014-09-02 15:18:07  [ NioProcessor-5:253611 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-02 15:18:07  [ NioProcessor-5:253616 ] - [ INFO ]  the session is closed !
+2014-09-02 15:18:08  [ NioProcessor-1:254201 ] - [ INFO ]  the session is created !
+2014-09-02 15:18:08  [ NioProcessor-1:254202 ] - [ INFO ]  the session is opened !
+2014-09-02 15:18:08  [ NioProcessor-1:254202 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-02 15:18:08  [ NioProcessor-1:254277 ] - [ INFO ]  the session is closed !
+2014-09-02 15:18:10  [ NioProcessor-2:256717 ] - [ INFO ]  the session is created !
+2014-09-02 15:18:10  [ NioProcessor-2:256718 ] - [ INFO ]  the session is opened !
+2014-09-02 15:18:10  [ NioProcessor-2:256734 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 6
+2014-09-02 15:18:10  [ NioProcessor-2:256800 ] - [ INFO ]  the session is closed !
+2014-09-02 15:18:19  [ NioProcessor-3:264817 ] - [ INFO ]  the session is created !
+2014-09-02 15:18:19  [ NioProcessor-3:264818 ] - [ INFO ]  the session is opened !
+2014-09-02 15:18:19  [ NioProcessor-3:264821 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 7
+2014-09-02 15:18:19  [ NioProcessor-3:264870 ] - [ INFO ]  the session is closed !
+2014-09-02 15:18:28  [ NioProcessor-4:274566 ] - [ INFO ]  the session is created !
+2014-09-02 15:18:28  [ NioProcessor-4:274567 ] - [ INFO ]  the session is opened !
+2014-09-02 15:18:28  [ NioProcessor-4:274567 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 8
+2014-09-02 15:18:28  [ NioProcessor-4:274703 ] - [ INFO ]  the session is closed !
+2014-09-02 15:18:39  [ NioProcessor-5:285147 ] - [ INFO ]  the session is created !
+2014-09-02 15:18:39  [ NioProcessor-5:285148 ] - [ INFO ]  the session is opened !
+2014-09-02 15:18:39  [ NioProcessor-5:285148 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 9
+2014-09-02 15:18:39  [ NioProcessor-5:285217 ] - [ INFO ]  the session is closed !
+2014-09-02 15:18:49  [ NioProcessor-1:294929 ] - [ INFO ]  the session is created !
+2014-09-02 15:18:49  [ NioProcessor-1:294929 ] - [ INFO ]  the session is opened !
+2014-09-02 15:18:49  [ NioProcessor-1:294930 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 10
+2014-09-02 15:18:49  [ NioProcessor-1:294962 ] - [ INFO ]  the session is closed !
+2014-09-02 15:18:56  [ NioProcessor-2:302569 ] - [ INFO ]  the session is created !
+2014-09-02 15:18:56  [ NioProcessor-2:302569 ] - [ INFO ]  the session is opened !
+2014-09-02 15:18:56  [ NioProcessor-2:302581 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 11
+2014-09-02 15:18:56  [ NioProcessor-2:302634 ] - [ INFO ]  the session is closed !
+2014-09-02 15:19:08  [ NioProcessor-3:314614 ] - [ INFO ]  the session is created !
+2014-09-02 15:19:08  [ NioProcessor-3:314615 ] - [ INFO ]  the session is opened !
+2014-09-02 15:19:08  [ NioProcessor-3:314615 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 12
+2014-09-02 15:19:08  [ NioProcessor-3:314632 ] - [ INFO ]  the session is closed !

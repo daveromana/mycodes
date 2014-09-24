@@ -1,0 +1,13 @@
+2014-09-02 14:36:20  [ main:0 ] - [ INFO ]  server start success the port is 9999
+2014-09-02 14:36:45  [ NioProcessor-2:24521 ] - [ INFO ]  the session is created !
+2014-09-02 14:36:45  [ NioProcessor-2:24551 ] - [ INFO ]  the session is opened !
+2014-09-02 14:36:45  [ NioProcessor-2:24572 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-02 14:36:45  [ NioProcessor-2:24962 ] - [ INFO ]  the session is closed !
+2014-09-02 14:37:08  [ NioProcessor-3:48342 ] - [ INFO ]  the session is created !
+2014-09-02 14:37:08  [ NioProcessor-3:48342 ] - [ INFO ]  the session is opened !
+2014-09-02 14:37:08  [ NioProcessor-3:48342 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-02 14:37:08  [ NioProcessor-3:48363 ] - [ INFO ]  the session is closed !
+2014-09-02 14:37:10  [ NioProcessor-4:50213 ] - [ INFO ]  the session is created !
+2014-09-02 14:37:10  [ NioProcessor-4:50223 ] - [ INFO ]  the session is opened !
+2014-09-02 14:37:10  [ NioProcessor-4:50223 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-02 14:37:10  [ NioProcessor-4:50264 ] - [ INFO ]  the session is closed !

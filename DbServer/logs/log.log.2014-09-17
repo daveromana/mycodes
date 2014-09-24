@@ -1,0 +1,632 @@
+2014-09-17 16:46:39  [ main:0 ] - [ INFO ]  server start success the port is 6602
+2014-09-17 17:00:26  [ NioProcessor-2:827784 ] - [ INFO ]  the session is created !
+2014-09-17 17:00:26  [ NioProcessor-2:827785 ] - [ INFO ]  the session is opened !
+2014-09-17 17:00:26  [ NioProcessor-2:827788 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-17 17:00:43  [ NioProcessor-3:844113 ] - [ INFO ]  the session is created !
+2014-09-17 17:00:43  [ NioProcessor-3:844115 ] - [ INFO ]  the session is opened !
+2014-09-17 17:00:43  [ NioProcessor-3:844116 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-17 17:00:43  [ NioProcessor-4:844229 ] - [ INFO ]  the session is created !
+2014-09-17 17:00:43  [ NioProcessor-4:844230 ] - [ INFO ]  the session is opened !
+2014-09-17 17:00:43  [ NioProcessor-4:844231 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-17 17:00:43  [ NioProcessor-4:844244 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:00:43  [ NioProcessor-4:844248 ] - [ INFO ]  the session is closed !
+2014-09-17 17:00:48  [ NioProcessor-5:849176 ] - [ INFO ]  the session is created !
+2014-09-17 17:00:48  [ NioProcessor-5:849177 ] - [ INFO ]  the session is opened !
+2014-09-17 17:00:48  [ NioProcessor-5:849179 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 4
+2014-09-17 17:00:48  [ NioProcessor-5:849186 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:00:48  [ NioProcessor-5:849190 ] - [ INFO ]  the session is closed !
+2014-09-17 17:00:53  [ NioProcessor-1:854240 ] - [ INFO ]  the session is created !
+2014-09-17 17:00:53  [ NioProcessor-1:854240 ] - [ INFO ]  the session is opened !
+2014-09-17 17:00:53  [ NioProcessor-1:854241 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-17 17:00:53  [ NioProcessor-1:854244 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:00:53  [ NioProcessor-1:854246 ] - [ INFO ]  the session is closed !
+2014-09-17 17:00:58  [ NioProcessor-2:859456 ] - [ INFO ]  the session is created !
+2014-09-17 17:00:58  [ NioProcessor-2:859457 ] - [ INFO ]  the session is opened !
+2014-09-17 17:00:58  [ NioProcessor-2:859458 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 6
+2014-09-17 17:00:58  [ NioProcessor-2:859464 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:00:58  [ NioProcessor-2:859466 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:03  [ NioProcessor-3:864174 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:03  [ NioProcessor-3:864175 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:03  [ NioProcessor-3:864196 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 7
+2014-09-17 17:01:03  [ NioProcessor-3:864201 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:03  [ NioProcessor-3:864203 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:08  [ NioProcessor-4:869233 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:08  [ NioProcessor-4:869234 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:08  [ NioProcessor-4:869246 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 8
+2014-09-17 17:01:08  [ NioProcessor-4:869252 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:08  [ NioProcessor-4:869254 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:13  [ NioProcessor-5:874163 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:13  [ NioProcessor-5:874164 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:13  [ NioProcessor-5:874193 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 9
+2014-09-17 17:01:13  [ NioProcessor-5:874196 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:13  [ NioProcessor-5:874197 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:18  [ NioProcessor-1:879248 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:18  [ NioProcessor-1:879249 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:18  [ NioProcessor-1:879249 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 10
+2014-09-17 17:01:18  [ NioProcessor-1:879252 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:18  [ NioProcessor-1:879253 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:23  [ NioProcessor-2:884234 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:23  [ NioProcessor-2:884235 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:23  [ NioProcessor-2:884236 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 11
+2014-09-17 17:01:23  [ NioProcessor-2:884242 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:23  [ NioProcessor-2:884245 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:23  [ NioProcessor-2:884668 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:23  [ NioProcessor-3:884676 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:44  [ NioProcessor-3:905386 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:44  [ NioProcessor-3:905387 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:44  [ NioProcessor-3:905403 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 12
+2014-09-17 17:01:44  [ NioProcessor-3:905406 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:44  [ NioProcessor-3:905407 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:44  [ NioProcessor-4:905568 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:44  [ NioProcessor-4:905569 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:44  [ NioProcessor-4:905588 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 13
+2014-09-17 17:01:44  [ NioProcessor-4:905594 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:44  [ NioProcessor-4:905595 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:44  [ NioProcessor-5:905674 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:44  [ NioProcessor-5:905675 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:44  [ NioProcessor-5:905685 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 14
+2014-09-17 17:01:44  [ NioProcessor-5:905689 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:44  [ NioProcessor-5:905690 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:44  [ NioProcessor-1:905737 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:44  [ NioProcessor-1:905737 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:44  [ NioProcessor-1:905760 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 15
+2014-09-17 17:01:44  [ NioProcessor-1:905762 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:44  [ NioProcessor-1:905764 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:48  [ NioProcessor-2:909335 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:48  [ NioProcessor-2:909336 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:48  [ NioProcessor-2:909358 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 16
+2014-09-17 17:01:48  [ NioProcessor-2:909361 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:48  [ NioProcessor-2:909362 ] - [ INFO ]  the session is closed !
+2014-09-17 17:01:53  [ NioProcessor-3:913840 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:53  [ NioProcessor-3:913841 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:53  [ NioProcessor-3:913898 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 17
+2014-09-17 17:01:53  [ NioProcessor-4:914033 ] - [ INFO ]  the session is created !
+2014-09-17 17:01:53  [ NioProcessor-4:914033 ] - [ INFO ]  the session is opened !
+2014-09-17 17:01:53  [ NioProcessor-4:914033 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 18
+2014-09-17 17:01:53  [ NioProcessor-4:914035 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:01:53  [ NioProcessor-4:914036 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:12  [ NioProcessor-5:933252 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:12  [ NioProcessor-5:933252 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:12  [ NioProcessor-5:933260 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 19
+2014-09-17 17:02:12  [ NioProcessor-5:933263 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:12  [ NioProcessor-5:933264 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:18  [ NioProcessor-1:938930 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:18  [ NioProcessor-1:938930 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:18  [ NioProcessor-1:938949 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 20
+2014-09-17 17:02:18  [ NioProcessor-1:938952 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:18  [ NioProcessor-1:938952 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:18  [ NioProcessor-2:939333 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:18  [ NioProcessor-2:939333 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:18  [ NioProcessor-2:939333 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 21
+2014-09-17 17:02:18  [ NioProcessor-2:939335 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:18  [ NioProcessor-2:939335 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:18  [ NioProcessor-3:939565 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:18  [ NioProcessor-3:939565 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:18  [ NioProcessor-3:939598 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 22
+2014-09-17 17:02:18  [ NioProcessor-3:939600 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:18  [ NioProcessor-3:939601 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:18  [ NioProcessor-4:939762 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:18  [ NioProcessor-4:939762 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:18  [ NioProcessor-4:939785 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 23
+2014-09-17 17:02:18  [ NioProcessor-4:939788 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:18  [ NioProcessor-4:939789 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:23  [ NioProcessor-5:944032 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:23  [ NioProcessor-5:944032 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:23  [ NioProcessor-5:944032 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 24
+2014-09-17 17:02:23  [ NioProcessor-5:944034 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:23  [ NioProcessor-5:944035 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:28  [ NioProcessor-1:948984 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:28  [ NioProcessor-1:948985 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:28  [ NioProcessor-1:949061 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 25
+2014-09-17 17:02:28  [ NioProcessor-1:949064 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:28  [ NioProcessor-1:949066 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:33  [ NioProcessor-2:954001 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:33  [ NioProcessor-2:954002 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:33  [ NioProcessor-2:954030 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 26
+2014-09-17 17:02:33  [ NioProcessor-2:954031 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:33  [ NioProcessor-2:954032 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:38  [ NioProcessor-3:959023 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:38  [ NioProcessor-3:959023 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:38  [ NioProcessor-3:959024 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 27
+2014-09-17 17:02:38  [ NioProcessor-3:959027 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:38  [ NioProcessor-3:959028 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:43  [ NioProcessor-4:964057 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:43  [ NioProcessor-4:964057 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:43  [ NioProcessor-4:964065 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 28
+2014-09-17 17:02:43  [ NioProcessor-4:964067 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:43  [ NioProcessor-4:964068 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:48  [ NioProcessor-5:969068 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:48  [ NioProcessor-5:969069 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:48  [ NioProcessor-5:969069 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 29
+2014-09-17 17:02:48  [ NioProcessor-5:969076 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:48  [ NioProcessor-5:969077 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:53  [ NioProcessor-1:974030 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:53  [ NioProcessor-1:974030 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:53  [ NioProcessor-1:974031 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 30
+2014-09-17 17:02:53  [ NioProcessor-1:974032 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:53  [ NioProcessor-1:974033 ] - [ INFO ]  the session is closed !
+2014-09-17 17:02:58  [ NioProcessor-2:979091 ] - [ INFO ]  the session is created !
+2014-09-17 17:02:58  [ NioProcessor-2:979091 ] - [ INFO ]  the session is opened !
+2014-09-17 17:02:58  [ NioProcessor-2:979092 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 31
+2014-09-17 17:02:58  [ NioProcessor-2:979093 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:02:58  [ NioProcessor-2:979094 ] - [ INFO ]  the session is closed !
+2014-09-17 17:03:03  [ NioProcessor-3:984050 ] - [ INFO ]  the session is created !
+2014-09-17 17:03:03  [ NioProcessor-3:984051 ] - [ INFO ]  the session is opened !
+2014-09-17 17:03:03  [ NioProcessor-3:984051 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 32
+2014-09-17 17:03:03  [ NioProcessor-3:984053 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:03:03  [ NioProcessor-3:984054 ] - [ INFO ]  the session is closed !
+2014-09-17 17:03:08  [ NioProcessor-4:989132 ] - [ INFO ]  the session is created !
+2014-09-17 17:03:08  [ NioProcessor-4:989133 ] - [ INFO ]  the session is opened !
+2014-09-17 17:03:08  [ NioProcessor-4:989133 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 33
+2014-09-17 17:03:08  [ NioProcessor-4:989135 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:03:08  [ NioProcessor-4:989136 ] - [ INFO ]  the session is closed !
+2014-09-17 17:03:13  [ NioProcessor-5:993999 ] - [ INFO ]  the session is created !
+2014-09-17 17:03:13  [ NioProcessor-5:994000 ] - [ INFO ]  the session is opened !
+2014-09-17 17:03:13  [ NioProcessor-5:994034 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 34
+2014-09-17 17:03:13  [ NioProcessor-5:994036 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:03:13  [ NioProcessor-5:994037 ] - [ INFO ]  the session is closed !
+2014-09-17 17:03:18  [ NioProcessor-1:999052 ] - [ INFO ]  the session is created !
+2014-09-17 17:03:18  [ NioProcessor-1:999052 ] - [ INFO ]  the session is opened !
+2014-09-17 17:03:18  [ NioProcessor-1:999061 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 35
+2014-09-17 17:03:18  [ NioProcessor-1:999063 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:03:18  [ NioProcessor-1:999063 ] - [ INFO ]  the session is closed !
+2014-09-17 17:03:23  [ NioProcessor-2:1004030 ] - [ INFO ]  the session is created !
+2014-09-17 17:03:23  [ NioProcessor-2:1004030 ] - [ INFO ]  the session is opened !
+2014-09-17 17:03:23  [ NioProcessor-2:1004044 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 36
+2014-09-17 17:03:23  [ NioProcessor-2:1004047 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:03:23  [ NioProcessor-2:1004048 ] - [ INFO ]  the session is closed !
+2014-09-17 17:03:28  [ NioProcessor-3:1009049 ] - [ INFO ]  the session is created !
+2014-09-17 17:03:28  [ NioProcessor-3:1009050 ] - [ INFO ]  the session is opened !
+2014-09-17 17:03:28  [ NioProcessor-3:1009050 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 37
+2014-09-17 17:03:51  [ NioProcessor-3:1031958 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:03:51  [ NioProcessor-3:1031960 ] - [ INFO ]  the session is closed !
+2014-09-17 17:03:51  [ NioProcessor-4:1032238 ] - [ INFO ]  the session is created !
+2014-09-17 17:03:51  [ NioProcessor-4:1032238 ] - [ INFO ]  the session is opened !
+2014-09-17 17:03:51  [ NioProcessor-4:1032253 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 38
+2014-09-17 17:05:21  [ NioProcessor-5:1122316 ] - [ INFO ]  the session is created !
+2014-09-17 17:05:21  [ NioProcessor-5:1122316 ] - [ INFO ]  the session is opened !
+2014-09-17 17:05:21  [ NioProcessor-5:1122324 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 39
+2014-09-17 17:06:26  [ NioProcessor-4:1187757 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:29  [ NioProcessor-4:1190088 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:29  [ NioProcessor-5:1190633 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:29  [ NioProcessor-5:1190636 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:29  [ NioProcessor-1:1190725 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:29  [ NioProcessor-1:1190725 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:29  [ NioProcessor-1:1190751 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 40
+2014-09-17 17:06:29  [ NioProcessor-1:1190754 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:29  [ NioProcessor-1:1190755 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:30  [ NioProcessor-2:1190848 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:30  [ NioProcessor-2:1190849 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:30  [ NioProcessor-2:1190882 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 41
+2014-09-17 17:06:30  [ NioProcessor-2:1190887 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:30  [ NioProcessor-2:1190889 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:30  [ NioProcessor-3:1190967 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:30  [ NioProcessor-3:1190968 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:30  [ NioProcessor-3:1190991 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 42
+2014-09-17 17:06:30  [ NioProcessor-3:1190994 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:30  [ NioProcessor-3:1190996 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:30  [ NioProcessor-4:1191216 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:30  [ NioProcessor-4:1191217 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:30  [ NioProcessor-4:1191245 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 43
+2014-09-17 17:06:30  [ NioProcessor-4:1191249 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:30  [ NioProcessor-4:1191251 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:30  [ NioProcessor-5:1191456 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:30  [ NioProcessor-5:1191456 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:30  [ NioProcessor-5:1191548 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 44
+2014-09-17 17:06:30  [ NioProcessor-5:1191557 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:30  [ NioProcessor-5:1191558 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:30  [ NioProcessor-1:1191705 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:30  [ NioProcessor-1:1191705 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:30  [ NioProcessor-1:1191730 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 45
+2014-09-17 17:06:30  [ NioProcessor-1:1191733 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:30  [ NioProcessor-1:1191734 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:31  [ NioProcessor-2:1191939 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:31  [ NioProcessor-2:1191940 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:31  [ NioProcessor-2:1191966 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 46
+2014-09-17 17:06:31  [ NioProcessor-2:1191970 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:31  [ NioProcessor-2:1191972 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:31  [ NioProcessor-3:1192034 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:31  [ NioProcessor-3:1192035 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:31  [ NioProcessor-3:1192045 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 47
+2014-09-17 17:06:31  [ NioProcessor-3:1192047 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:31  [ NioProcessor-3:1192048 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:31  [ NioProcessor-4:1192138 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:31  [ NioProcessor-4:1192138 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:31  [ NioProcessor-4:1192155 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 48
+2014-09-17 17:06:31  [ NioProcessor-4:1192159 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:31  [ NioProcessor-4:1192161 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:31  [ NioProcessor-5:1192245 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:31  [ NioProcessor-5:1192246 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:31  [ NioProcessor-5:1192257 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 49
+2014-09-17 17:06:31  [ NioProcessor-5:1192259 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:31  [ NioProcessor-5:1192260 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:31  [ NioProcessor-1:1192311 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:31  [ NioProcessor-1:1192311 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:31  [ NioProcessor-1:1192325 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 50
+2014-09-17 17:06:31  [ NioProcessor-1:1192327 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:31  [ NioProcessor-1:1192327 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:31  [ NioProcessor-2:1192384 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:31  [ NioProcessor-2:1192384 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:31  [ NioProcessor-2:1192422 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 51
+2014-09-17 17:06:31  [ NioProcessor-2:1192425 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:31  [ NioProcessor-2:1192426 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:31  [ NioProcessor-3:1192566 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:31  [ NioProcessor-3:1192566 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:31  [ NioProcessor-3:1192570 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 52
+2014-09-17 17:06:31  [ NioProcessor-3:1192572 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:31  [ NioProcessor-3:1192573 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:31  [ NioProcessor-4:1192727 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:31  [ NioProcessor-4:1192728 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:31  [ NioProcessor-4:1192753 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 53
+2014-09-17 17:06:31  [ NioProcessor-4:1192755 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:31  [ NioProcessor-4:1192756 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:32  [ NioProcessor-5:1192896 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:32  [ NioProcessor-5:1192896 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:32  [ NioProcessor-5:1192897 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 54
+2014-09-17 17:06:32  [ NioProcessor-5:1192899 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:32  [ NioProcessor-5:1192899 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:32  [ NioProcessor-1:1192968 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:32  [ NioProcessor-1:1192969 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:32  [ NioProcessor-1:1193037 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 55
+2014-09-17 17:06:32  [ NioProcessor-1:1193039 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:32  [ NioProcessor-1:1193040 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:32  [ NioProcessor-2:1193260 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:32  [ NioProcessor-2:1193260 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:32  [ NioProcessor-2:1193260 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 56
+2014-09-17 17:06:32  [ NioProcessor-2:1193262 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:32  [ NioProcessor-2:1193263 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:32  [ NioProcessor-3:1193347 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:32  [ NioProcessor-3:1193347 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:32  [ NioProcessor-3:1193362 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 57
+2014-09-17 17:06:32  [ NioProcessor-3:1193365 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:32  [ NioProcessor-3:1193365 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:32  [ NioProcessor-4:1193476 ] - [ INFO ]  the session is created !
+2014-09-17 17:06:32  [ NioProcessor-4:1193476 ] - [ INFO ]  the session is opened !
+2014-09-17 17:06:32  [ NioProcessor-4:1193477 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 58
+2014-09-17 17:06:32  [ NioProcessor-4:1193478 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:06:32  [ NioProcessor-4:1193479 ] - [ INFO ]  the session is closed !
+2014-09-17 17:06:33  [ NioProcessor-3:1194134 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:18  [ NioProcessor-5:1239135 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:18  [ NioProcessor-5:1239136 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:18  [ NioProcessor-5:1239137 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 59
+2014-09-17 17:07:39  [ NioProcessor-5:1260030 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:07:39  [ NioProcessor-5:1260031 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:39  [ NioProcessor-1:1260223 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:39  [ NioProcessor-1:1260224 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:39  [ NioProcessor-1:1260225 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 60
+2014-09-17 17:07:39  [ NioProcessor-1:1260229 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:07:39  [ NioProcessor-1:1260230 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:39  [ NioProcessor-2:1260276 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:39  [ NioProcessor-2:1260276 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:39  [ NioProcessor-2:1260277 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 61
+2014-09-17 17:07:39  [ NioProcessor-2:1260278 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:07:39  [ NioProcessor-2:1260279 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:39  [ NioProcessor-3:1260353 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:39  [ NioProcessor-3:1260353 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:39  [ NioProcessor-3:1260355 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 62
+2014-09-17 17:07:39  [ NioProcessor-3:1260357 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:07:39  [ NioProcessor-3:1260358 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:39  [ NioProcessor-4:1260474 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:39  [ NioProcessor-4:1260474 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:39  [ NioProcessor-4:1260474 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 63
+2014-09-17 17:07:39  [ NioProcessor-4:1260477 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:07:39  [ NioProcessor-4:1260478 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:43  [ NioProcessor-5:1263973 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:43  [ NioProcessor-5:1263973 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:43  [ NioProcessor-5:1263974 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 64
+2014-09-17 17:07:43  [ NioProcessor-5:1263976 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:07:43  [ NioProcessor-5:1263977 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:48  [ NioProcessor-1:1269091 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:48  [ NioProcessor-1:1269092 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:48  [ NioProcessor-1:1269093 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 65
+2014-09-17 17:07:48  [ NioProcessor-1:1269097 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:07:48  [ NioProcessor-1:1269098 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:52  [ NioProcessor-2:1273352 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:52  [ NioProcessor-2:1273352 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:52  [ NioProcessor-2:1273424 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-17 17:07:52  [ NioProcessor-2:1273425 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:53  [ NioProcessor-3:1273960 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:53  [ NioProcessor-3:1273961 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:53  [ NioProcessor-3:1273962 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 67
+2014-09-17 17:07:53  [ NioProcessor-3:1273963 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:07:53  [ NioProcessor-3:1273964 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:58  [ NioProcessor-4:1279011 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:58  [ NioProcessor-4:1279011 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:58  [ NioProcessor-4:1279011 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 68
+2014-09-17 17:07:58  [ NioProcessor-4:1279014 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:07:58  [ NioProcessor-4:1279015 ] - [ INFO ]  the session is closed !
+2014-09-17 17:07:59  [ NioProcessor-5:1280136 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:59  [ NioProcessor-5:1280137 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:59  [ NioProcessor-5:1280138 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 69
+2014-09-17 17:07:59  [ NioProcessor-1:1280231 ] - [ INFO ]  the session is created !
+2014-09-17 17:07:59  [ NioProcessor-1:1280232 ] - [ INFO ]  the session is opened !
+2014-09-17 17:07:59  [ NioProcessor-1:1280232 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 70
+2014-09-17 17:07:59  [ NioProcessor-1:1280235 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:07:59  [ NioProcessor-1:1280236 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:04  [ NioProcessor-2:1285219 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:04  [ NioProcessor-2:1285219 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:04  [ NioProcessor-2:1285249 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 71
+2014-09-17 17:08:04  [ NioProcessor-2:1285253 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:04  [ NioProcessor-2:1285255 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:09  [ NioProcessor-3:1290215 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:09  [ NioProcessor-3:1290215 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:09  [ NioProcessor-3:1290225 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 72
+2014-09-17 17:08:09  [ NioProcessor-3:1290227 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:09  [ NioProcessor-3:1290228 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:14  [ NioProcessor-4:1295229 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:14  [ NioProcessor-4:1295229 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:14  [ NioProcessor-4:1295307 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 73
+2014-09-17 17:08:26  [ NioProcessor-4:1307290 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:26  [ NioProcessor-4:1307292 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:26  [ NioProcessor-5:1307552 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:26  [ NioProcessor-5:1307553 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:26  [ NioProcessor-5:1307560 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 74
+2014-09-17 17:08:30  [ NioProcessor-5:1311128 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:30  [ NioProcessor-5:1311130 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:30  [ NioProcessor-1:1311232 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:30  [ NioProcessor-1:1311232 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:30  [ NioProcessor-1:1311233 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 75
+2014-09-17 17:08:30  [ NioProcessor-1:1311234 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:30  [ NioProcessor-1:1311235 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:30  [ NioProcessor-2:1311270 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:30  [ NioProcessor-2:1311270 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:30  [ NioProcessor-2:1311277 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 76
+2014-09-17 17:08:30  [ NioProcessor-2:1311280 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:30  [ NioProcessor-2:1311281 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:34  [ NioProcessor-3:1315214 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:34  [ NioProcessor-3:1315214 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:34  [ NioProcessor-3:1315215 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 77
+2014-09-17 17:08:34  [ NioProcessor-3:1315217 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:34  [ NioProcessor-3:1315217 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:39  [ NioProcessor-4:1320245 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:39  [ NioProcessor-4:1320245 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:39  [ NioProcessor-4:1320246 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 78
+2014-09-17 17:08:39  [ NioProcessor-4:1320248 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:39  [ NioProcessor-4:1320248 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:44  [ NioProcessor-5:1325196 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:44  [ NioProcessor-5:1325197 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:44  [ NioProcessor-5:1325206 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 79
+2014-09-17 17:08:44  [ NioProcessor-5:1325209 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:44  [ NioProcessor-5:1325210 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:49  [ NioProcessor-1:1330263 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:49  [ NioProcessor-1:1330263 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:49  [ NioProcessor-1:1330264 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 80
+2014-09-17 17:08:49  [ NioProcessor-1:1330266 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:49  [ NioProcessor-1:1330266 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:54  [ NioProcessor-2:1335196 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:54  [ NioProcessor-2:1335196 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:54  [ NioProcessor-2:1335204 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 81
+2014-09-17 17:08:54  [ NioProcessor-2:1335209 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:54  [ NioProcessor-2:1335211 ] - [ INFO ]  the session is closed !
+2014-09-17 17:08:59  [ NioProcessor-3:1340208 ] - [ INFO ]  the session is created !
+2014-09-17 17:08:59  [ NioProcessor-3:1340209 ] - [ INFO ]  the session is opened !
+2014-09-17 17:08:59  [ NioProcessor-3:1340221 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 82
+2014-09-17 17:08:59  [ NioProcessor-3:1340224 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:08:59  [ NioProcessor-3:1340225 ] - [ INFO ]  the session is closed !
+2014-09-17 17:09:04  [ NioProcessor-4:1345212 ] - [ INFO ]  the session is created !
+2014-09-17 17:09:04  [ NioProcessor-4:1345213 ] - [ INFO ]  the session is opened !
+2014-09-17 17:09:04  [ NioProcessor-4:1345221 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 83
+2014-09-17 17:09:04  [ NioProcessor-4:1345227 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:09:04  [ NioProcessor-4:1345229 ] - [ INFO ]  the session is closed !
+2014-09-17 17:09:06  [ NioProcessor-5:1347408 ] - [ INFO ]  the session is closed !
+2014-09-17 17:09:14  [ NioProcessor-5:1355461 ] - [ INFO ]  the session is created !
+2014-09-17 17:09:14  [ NioProcessor-5:1355461 ] - [ INFO ]  the session is opened !
+2014-09-17 17:09:14  [ NioProcessor-5:1355475 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 84
+2014-09-17 17:09:14  [ NioProcessor-5:1355478 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:09:14  [ NioProcessor-5:1355478 ] - [ INFO ]  the session is closed !
+2014-09-17 17:09:19  [ NioProcessor-1:1360359 ] - [ INFO ]  the session is created !
+2014-09-17 17:09:19  [ NioProcessor-1:1360360 ] - [ INFO ]  the session is opened !
+2014-09-17 17:09:19  [ NioProcessor-1:1360381 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 85
+2014-09-17 17:09:19  [ NioProcessor-1:1360383 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:09:19  [ NioProcessor-1:1360384 ] - [ INFO ]  the session is closed !
+2014-09-17 17:09:24  [ NioProcessor-2:1365232 ] - [ INFO ]  the session is created !
+2014-09-17 17:09:24  [ NioProcessor-2:1365232 ] - [ INFO ]  the session is opened !
+2014-09-17 17:09:24  [ NioProcessor-2:1365253 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 86
+2014-09-17 17:09:24  [ NioProcessor-2:1365255 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:09:24  [ NioProcessor-2:1365256 ] - [ INFO ]  the session is closed !
+2014-09-17 17:09:27  [ NioProcessor-3:1367942 ] - [ INFO ]  the session is created !
+2014-09-17 17:09:27  [ NioProcessor-3:1367942 ] - [ INFO ]  the session is opened !
+2014-09-17 17:09:27  [ NioProcessor-3:1367985 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 87
+2014-09-17 17:09:27  [ NioProcessor-4:1368214 ] - [ INFO ]  the session is created !
+2014-09-17 17:09:27  [ NioProcessor-4:1368214 ] - [ INFO ]  the session is opened !
+2014-09-17 17:09:27  [ NioProcessor-4:1368249 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 88
+2014-09-17 17:09:27  [ NioProcessor-4:1368250 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:09:27  [ NioProcessor-4:1368251 ] - [ INFO ]  the session is closed !
+2014-09-17 17:10:01  [ NioProcessor-5:1401927 ] - [ INFO ]  the session is created !
+2014-09-17 17:10:01  [ NioProcessor-5:1401927 ] - [ INFO ]  the session is opened !
+2014-09-17 17:10:01  [ NioProcessor-5:1401927 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 89
+2014-09-17 17:10:01  [ NioProcessor-5:1401929 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:10:01  [ NioProcessor-5:1401929 ] - [ INFO ]  the session is closed !
+2014-09-17 17:10:27  [ NioProcessor-1:1428113 ] - [ INFO ]  the session is created !
+2014-09-17 17:10:27  [ NioProcessor-1:1428114 ] - [ INFO ]  the session is opened !
+2014-09-17 17:10:27  [ NioProcessor-1:1428117 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 90
+2014-09-17 17:10:27  [ NioProcessor-1:1428120 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:10:27  [ NioProcessor-1:1428121 ] - [ INFO ]  the session is closed !
+2014-09-17 17:10:37  [ NioProcessor-3:1438447 ] - [ INFO ]  the session is closed !
+2014-09-17 17:10:55  [ NioProcessor-2:1456643 ] - [ INFO ]  the session is created !
+2014-09-17 17:10:55  [ NioProcessor-2:1456643 ] - [ INFO ]  the session is opened !
+2014-09-17 17:10:55  [ NioProcessor-2:1456714 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 91
+2014-09-17 17:10:56  [ NioProcessor-3:1456987 ] - [ INFO ]  the session is created !
+2014-09-17 17:10:56  [ NioProcessor-3:1456987 ] - [ INFO ]  the session is opened !
+2014-09-17 17:10:56  [ NioProcessor-3:1456988 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 92
+2014-09-17 17:10:56  [ NioProcessor-3:1456992 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:10:56  [ NioProcessor-3:1456993 ] - [ INFO ]  the session is closed !
+2014-09-17 17:11:25  [ NioProcessor-4:1486779 ] - [ INFO ]  the session is created !
+2014-09-17 17:11:25  [ NioProcessor-4:1486780 ] - [ INFO ]  the session is opened !
+2014-09-17 17:11:25  [ NioProcessor-4:1486785 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 93
+2014-09-17 17:11:25  [ NioProcessor-4:1486787 ] - [ ERROR ]  the handler is exception +org.apache.mina.core.buffer.BufferDataException: java.io.NotSerializableException: org.apache.mina.transport.socket.nio.NioSocketSession
+2014-09-17 17:11:25  [ NioProcessor-4:1486788 ] - [ INFO ]  the session is closed !
+2014-09-17 17:12:16  [ NioProcessor-5:1537758 ] - [ INFO ]  the session is created !
+2014-09-17 17:12:16  [ NioProcessor-5:1537759 ] - [ INFO ]  the session is opened !
+2014-09-17 17:12:16  [ NioProcessor-5:1537760 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-17 17:12:16  [ NioProcessor-5:1537762 ] - [ INFO ]  the session is closed !
+2014-09-17 17:12:42  [ main:0 ] - [ INFO ]  server start success the port is 6602
+2014-09-17 17:12:55  [ NioProcessor-2:12628 ] - [ INFO ]  the session is created !
+2014-09-17 17:12:55  [ NioProcessor-2:12629 ] - [ INFO ]  the session is opened !
+2014-09-17 17:12:55  [ NioProcessor-3:12632 ] - [ INFO ]  the session is created !
+2014-09-17 17:12:55  [ NioProcessor-3:12632 ] - [ INFO ]  the session is opened !
+2014-09-17 17:12:55  [ NioProcessor-2:12632 ] - [ ERROR ]  the handler is exception +An existing connection was forcibly closed by the remote host
+2014-09-17 17:12:55  [ NioProcessor-3:12635 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 2
+2014-09-17 17:12:55  [ NioProcessor-2:12655 ] - [ INFO ]  the session is closed !
+2014-09-17 17:12:55  [ NioProcessor-4:12992 ] - [ INFO ]  the session is created !
+2014-09-17 17:12:55  [ NioProcessor-4:12993 ] - [ INFO ]  the session is opened !
+2014-09-17 17:12:55  [ NioProcessor-4:12994 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 3
+2014-09-17 17:13:25  [ NioProcessor-5:42890 ] - [ INFO ]  the session is created !
+2014-09-17 17:13:25  [ NioProcessor-5:42890 ] - [ INFO ]  the session is opened !
+2014-09-17 17:13:25  [ NioProcessor-5:42891 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 4
+2014-09-17 17:13:55  [ NioProcessor-1:72953 ] - [ INFO ]  the session is created !
+2014-09-17 17:13:55  [ NioProcessor-1:72954 ] - [ INFO ]  the session is opened !
+2014-09-17 17:13:55  [ NioProcessor-1:72962 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 5
+2014-09-17 17:14:25  [ NioProcessor-2:102980 ] - [ INFO ]  the session is created !
+2014-09-17 17:14:25  [ NioProcessor-2:102980 ] - [ INFO ]  the session is opened !
+2014-09-17 17:14:25  [ NioProcessor-2:103008 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 6
+2014-09-17 17:14:55  [ NioProcessor-3:132901 ] - [ INFO ]  the session is created !
+2014-09-17 17:14:55  [ NioProcessor-3:132901 ] - [ INFO ]  the session is opened !
+2014-09-17 17:14:55  [ NioProcessor-3:132902 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 7
+2014-09-17 17:15:25  [ NioProcessor-4:162887 ] - [ INFO ]  the session is created !
+2014-09-17 17:15:25  [ NioProcessor-4:162888 ] - [ INFO ]  the session is opened !
+2014-09-17 17:15:25  [ NioProcessor-4:162889 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 8
+2014-09-17 17:15:55  [ NioProcessor-5:192894 ] - [ INFO ]  the session is created !
+2014-09-17 17:15:55  [ NioProcessor-5:192895 ] - [ INFO ]  the session is opened !
+2014-09-17 17:15:55  [ NioProcessor-5:192935 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 9
+2014-09-17 17:16:25  [ NioProcessor-1:222984 ] - [ INFO ]  the session is created !
+2014-09-17 17:16:25  [ NioProcessor-1:222984 ] - [ INFO ]  the session is opened !
+2014-09-17 17:16:25  [ NioProcessor-1:222984 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 10
+2014-09-17 17:16:55  [ NioProcessor-2:252927 ] - [ INFO ]  the session is created !
+2014-09-17 17:16:55  [ NioProcessor-2:252927 ] - [ INFO ]  the session is opened !
+2014-09-17 17:16:55  [ NioProcessor-2:252927 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 11
+2014-09-17 17:17:25  [ NioProcessor-3:282916 ] - [ INFO ]  the session is created !
+2014-09-17 17:17:25  [ NioProcessor-3:282916 ] - [ INFO ]  the session is opened !
+2014-09-17 17:17:25  [ NioProcessor-3:282934 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 12
+2014-09-17 17:17:55  [ NioProcessor-4:312991 ] - [ INFO ]  the session is created !
+2014-09-17 17:17:55  [ NioProcessor-4:312991 ] - [ INFO ]  the session is opened !
+2014-09-17 17:17:55  [ NioProcessor-4:312991 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 13
+2014-09-17 17:18:25  [ NioProcessor-5:342888 ] - [ INFO ]  the session is created !
+2014-09-17 17:18:25  [ NioProcessor-5:342888 ] - [ INFO ]  the session is opened !
+2014-09-17 17:18:25  [ NioProcessor-5:342889 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 14
+2014-09-17 17:18:55  [ NioProcessor-1:372914 ] - [ INFO ]  the session is created !
+2014-09-17 17:18:55  [ NioProcessor-1:372915 ] - [ INFO ]  the session is opened !
+2014-09-17 17:18:55  [ NioProcessor-1:372915 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 15
+2014-09-17 17:19:25  [ NioProcessor-2:402921 ] - [ INFO ]  the session is created !
+2014-09-17 17:19:25  [ NioProcessor-2:402921 ] - [ INFO ]  the session is opened !
+2014-09-17 17:19:25  [ NioProcessor-2:402922 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 16
+2014-09-17 17:19:55  [ NioProcessor-3:432917 ] - [ INFO ]  the session is created !
+2014-09-17 17:19:55  [ NioProcessor-3:432917 ] - [ INFO ]  the session is opened !
+2014-09-17 17:19:55  [ NioProcessor-3:432918 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 17
+2014-09-17 17:20:25  [ NioProcessor-4:462869 ] - [ INFO ]  the session is created !
+2014-09-17 17:20:25  [ NioProcessor-4:462870 ] - [ INFO ]  the session is opened !
+2014-09-17 17:20:25  [ NioProcessor-4:462878 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 18
+2014-09-17 17:20:55  [ NioProcessor-5:492894 ] - [ INFO ]  the session is created !
+2014-09-17 17:20:55  [ NioProcessor-5:492895 ] - [ INFO ]  the session is opened !
+2014-09-17 17:20:55  [ NioProcessor-5:492895 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 19
+2014-09-17 17:21:25  [ NioProcessor-1:522890 ] - [ INFO ]  the session is created !
+2014-09-17 17:21:25  [ NioProcessor-1:522890 ] - [ INFO ]  the session is opened !
+2014-09-17 17:21:25  [ NioProcessor-1:522937 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 20
+2014-09-17 17:21:55  [ NioProcessor-2:552889 ] - [ INFO ]  the session is created !
+2014-09-17 17:21:55  [ NioProcessor-2:552889 ] - [ INFO ]  the session is opened !
+2014-09-17 17:21:55  [ NioProcessor-2:552892 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 21
+2014-09-17 17:22:25  [ NioProcessor-3:583024 ] - [ INFO ]  the session is created !
+2014-09-17 17:22:25  [ NioProcessor-3:583024 ] - [ INFO ]  the session is opened !
+2014-09-17 17:22:25  [ NioProcessor-3:583025 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 22
+2014-09-17 17:22:55  [ NioProcessor-4:612938 ] - [ INFO ]  the session is created !
+2014-09-17 17:22:55  [ NioProcessor-4:612939 ] - [ INFO ]  the session is opened !
+2014-09-17 17:22:55  [ NioProcessor-4:612940 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 23
+2014-09-17 17:23:25  [ NioProcessor-5:642858 ] - [ INFO ]  the session is created !
+2014-09-17 17:23:25  [ NioProcessor-5:642858 ] - [ INFO ]  the session is opened !
+2014-09-17 17:23:25  [ NioProcessor-5:642859 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 24
+2014-09-17 17:23:55  [ NioProcessor-1:672956 ] - [ INFO ]  the session is created !
+2014-09-17 17:23:55  [ NioProcessor-1:672957 ] - [ INFO ]  the session is opened !
+2014-09-17 17:23:55  [ NioProcessor-1:672957 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 25
+2014-09-17 17:24:25  [ NioProcessor-2:702879 ] - [ INFO ]  the session is created !
+2014-09-17 17:24:25  [ NioProcessor-2:702880 ] - [ INFO ]  the session is opened !
+2014-09-17 17:24:25  [ NioProcessor-2:702881 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 26
+2014-09-17 17:24:55  [ NioProcessor-3:732972 ] - [ INFO ]  the session is created !
+2014-09-17 17:24:55  [ NioProcessor-3:732973 ] - [ INFO ]  the session is opened !
+2014-09-17 17:24:55  [ NioProcessor-3:732974 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 27
+2014-09-17 17:25:25  [ NioProcessor-4:762875 ] - [ INFO ]  the session is created !
+2014-09-17 17:25:25  [ NioProcessor-4:762876 ] - [ INFO ]  the session is opened !
+2014-09-17 17:25:25  [ NioProcessor-4:762877 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 28
+2014-09-17 17:25:55  [ NioProcessor-5:792890 ] - [ INFO ]  the session is created !
+2014-09-17 17:25:55  [ NioProcessor-5:792891 ] - [ INFO ]  the session is opened !
+2014-09-17 17:25:55  [ NioProcessor-5:792892 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 29
+2014-09-17 17:26:25  [ NioProcessor-1:822871 ] - [ INFO ]  the session is created !
+2014-09-17 17:26:25  [ NioProcessor-1:822871 ] - [ INFO ]  the session is opened !
+2014-09-17 17:26:25  [ NioProcessor-1:822872 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 30
+2014-09-17 17:26:55  [ NioProcessor-2:852941 ] - [ INFO ]  the session is created !
+2014-09-17 17:26:55  [ NioProcessor-2:852942 ] - [ INFO ]  the session is opened !
+2014-09-17 17:26:55  [ NioProcessor-2:852943 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 31
+2014-09-17 17:27:25  [ NioProcessor-3:882870 ] - [ INFO ]  the session is created !
+2014-09-17 17:27:25  [ NioProcessor-3:882871 ] - [ INFO ]  the session is opened !
+2014-09-17 17:27:25  [ NioProcessor-3:882872 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 32
+2014-09-17 17:27:55  [ NioProcessor-4:912912 ] - [ INFO ]  the session is created !
+2014-09-17 17:27:55  [ NioProcessor-4:912913 ] - [ INFO ]  the session is opened !
+2014-09-17 17:27:55  [ NioProcessor-4:912914 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 33
+2014-09-17 17:28:25  [ NioProcessor-5:942853 ] - [ INFO ]  the session is created !
+2014-09-17 17:28:25  [ NioProcessor-5:942853 ] - [ INFO ]  the session is opened !
+2014-09-17 17:28:25  [ NioProcessor-5:942856 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 34
+2014-09-17 17:28:55  [ NioProcessor-1:972904 ] - [ INFO ]  the session is created !
+2014-09-17 17:28:55  [ NioProcessor-1:972905 ] - [ INFO ]  the session is opened !
+2014-09-17 17:28:55  [ NioProcessor-1:972905 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 35
+2014-09-17 17:29:25  [ NioProcessor-2:1002963 ] - [ INFO ]  the session is created !
+2014-09-17 17:29:25  [ NioProcessor-2:1002964 ] - [ INFO ]  the session is opened !
+2014-09-17 17:29:25  [ NioProcessor-2:1002965 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 36
+2014-09-17 17:29:55  [ NioProcessor-3:1032945 ] - [ INFO ]  the session is created !
+2014-09-17 17:29:55  [ NioProcessor-3:1032946 ] - [ INFO ]  the session is opened !
+2014-09-17 17:29:55  [ NioProcessor-3:1032947 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 37
+2014-09-17 17:30:25  [ NioProcessor-4:1062862 ] - [ INFO ]  the session is created !
+2014-09-17 17:30:25  [ NioProcessor-4:1062863 ] - [ INFO ]  the session is opened !
+2014-09-17 17:30:25  [ NioProcessor-4:1062864 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 38
+2014-09-17 17:30:55  [ NioProcessor-5:1092869 ] - [ INFO ]  the session is created !
+2014-09-17 17:30:55  [ NioProcessor-5:1092870 ] - [ INFO ]  the session is opened !
+2014-09-17 17:30:55  [ NioProcessor-5:1092871 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 39
+2014-09-17 17:31:25  [ NioProcessor-1:1122850 ] - [ INFO ]  the session is created !
+2014-09-17 17:31:25  [ NioProcessor-1:1122851 ] - [ INFO ]  the session is opened !
+2014-09-17 17:31:25  [ NioProcessor-1:1122852 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 40
+2014-09-17 17:32:25  [ NioProcessor-3:1182884 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-5:1182899 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-2:1182900 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-4:1182899 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-1:1182900 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-5:1182954 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-4:1182955 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-3:1182955 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-1:1182957 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-2:1182956 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-3:1182957 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-5:1182982 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-1:1182983 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-2:1182984 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-4:1182982 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-3:1182986 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-3:1182988 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-2:1182985 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-1:1182984 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-1:1182992 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-5:1182983 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-5:1182996 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-5:1183003 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-2:1182991 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-5:1183004 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-2:1183005 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-4:1182986 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-2:1183006 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-3:1183000 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-1:1182999 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-3:1183009 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-1:1183009 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-4:1183008 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-3:1183010 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-4:1183011 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-4:1183012 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-4:1183012 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-1:1183076 ] - [ INFO ]  the session is closed !
+2014-09-17 17:32:25  [ NioProcessor-5:1183404 ] - [ INFO ]  the session is closed !
+2014-09-17 18:20:55  [ NioProcessor-2:4093276 ] - [ INFO ]  the session is created !
+2014-09-17 18:20:55  [ NioProcessor-2:4093341 ] - [ INFO ]  the session is opened !
+2014-09-17 18:20:55  [ NioProcessor-2:4093355 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 41
+2014-09-17 18:20:57  [ NioProcessor-3:4095277 ] - [ INFO ]  the session is created !
+2014-09-17 18:20:57  [ NioProcessor-3:4095278 ] - [ INFO ]  the session is opened !
+2014-09-17 18:20:57  [ NioProcessor-3:4095279 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 42
+2014-09-17 18:20:58  [ NioProcessor-4:4096162 ] - [ INFO ]  the session is created !
+2014-09-17 18:20:58  [ NioProcessor-4:4096163 ] - [ INFO ]  the session is opened !
+2014-09-17 18:20:58  [ NioProcessor-4:4096193 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 43

@@ -1,0 +1,4 @@
+2014-09-09 15:22:24  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-09 15:22:24  [ main:76 ] - [ INFO ]  欢迎你， huangxu
+2014-09-09 15:24:06  [ NioProcessor-2:0 ] - [ DEBUG ]  Processing a MESSAGE_RECEIVED for session 1
+2014-09-09 15:24:06  [ main:6 ] - [ INFO ]  用户名或密码错误，请检查后再登陆

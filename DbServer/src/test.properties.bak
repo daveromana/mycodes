@@ -1,0 +1,5 @@
+#minaProServer config
+minaPro_service=org.huangxu.test
+minaPro_port=9999
+minaPro_idleTime=10
+minaPro_readBufferSize=2048
